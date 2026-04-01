@@ -1,0 +1,596 @@
+/* ==========================================
+   オリパ速報 - 2ch/なんJ風レトロCSS
+   ========================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap');
+
+/* --- Reset & Base --- */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'IBM Plex Mono', 'MS PGothic', 'ＭＳ Ｐゴシック', monospace;
+    background: #e6e6e6;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+a {
+    color: #0a4dc2;
+    text-decoration: none;
+}
+a:visited { color: #551a8b; }
+a:hover { text-decoration: underline; }
+
+/* --- Header --- */
+.header {
+    background: #8b1a2b;
+    color: #fff;
+    padding: 12px 16px;
+    border-bottom: 3px solid #5c0f1a;
+}
+.header-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header h1 {
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+.header h1 a { color: #fff; }
+.header h1 a:hover { text-decoration: none; }
+.header-sub {
+    font-size: 11px;
+    opacity: 0.8;
+}
+
+/* --- Ticker --- */
+.ticker {
+    background: #1a1a1a;
+    color: #ffcc00;
+    font-size: 12px;
+    padding: 6px 16px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.ticker-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* --- Category Tabs --- */
+.category-tabs {
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+    padding: 0;
+}
+.category-tabs-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    gap: 0;
+}
+.category-tabs a {
+    display: block;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #333;
+    border-right: 1px solid #ddd;
+    transition: background 0.1s;
+}
+.category-tabs a:hover {
+    background: #f0f0f0;
+    text-decoration: none;
+}
+.category-tabs a.active {
+    background: #8b1a2b;
+    color: #fff;
+}
+.tab-pokeka { border-top: 3px solid #f7c948; }
+.tab-yugioh { border-top: 3px solid #6a4cbc; }
+.tab-onepiece { border-top: 3px solid #e04040; }
+.tab-other { border-top: 3px solid #4a9; }
+.tab-ranking { border-top: 3px solid #e67e22; }
+
+/* --- Main Layout --- */
+.container {
+    max-width: 1000px;
+    margin: 16px auto;
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    gap: 16px;
+    padding: 0 8px;
+}
+
+/* --- Headline Cards --- */
+.headline-section {
+    grid-column: 1 / -1;
+}
+.headline-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+}
+.headline-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    position: relative;
+    overflow: hidden;
+}
+.headline-card-body {
+    padding: 8px;
+}
+.headline-card-title {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.4;
+    color: #333;
+}
+.headline-card-date {
+    font-size: 10px;
+    color: #888;
+    margin-top: 4px;
+}
+.headline-card .badge-overlay {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+}
+
+/* --- Article List --- */
+.article-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.article-item {
+    display: flex;
+    gap: 12px;
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+}
+.article-item:nth-child(odd) { background: #faf5ef; }
+.article-item:nth-child(even) { background: #f0f0f0; }
+
+.article-thumb {
+    width: 120px;
+    height: 80px;
+    background: #ddd;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: #999;
+    border: 1px solid #ccc;
+}
+
+.article-body { flex: 1; min-width: 0; }
+.article-title {
+    font-size: 15px;
+    font-weight: bold;
+    color: #1a1a1a;
+    line-height: 1.4;
+    margin-bottom: 4px;
+}
+.article-title a { color: #1a1a1a; }
+.article-title a:hover { color: #8b1a2b; }
+
+.article-meta {
+    font-size: 11px;
+    color: #888;
+}
+.article-meta .category-label {
+    color: #e67e22;
+    font-weight: bold;
+}
+.article-excerpt {
+    font-size: 12px;
+    color: #555;
+    margin-top: 4px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.article-readmore {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 11px;
+    background: #e67e22;
+    color: #fff !important;
+    padding: 2px 10px;
+    font-weight: bold;
+}
+.article-readmore:hover {
+    background: #cf6d17;
+    text-decoration: none;
+}
+
+/* --- Badges --- */
+.badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 1px 5px;
+    margin-right: 4px;
+}
+.badge-new {
+    background: #ff3333;
+    color: #fff;
+    animation: blink 1.2s infinite;
+}
+.badge-hot {
+    background: #ff6600;
+    color: #fff;
+}
+.badge-tag {
+    background: #8b1a2b;
+    color: #fff;
+}
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+/* --- Sidebar --- */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.sidebar-box {
+    background: #fff;
+    border: 1px solid #ccc;
+}
+.sidebar-box-header {
+    background: #8b1a2b;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 6px 10px;
+    border-bottom: 1px solid #5c0f1a;
+}
+.sidebar-box-body {
+    padding: 8px 10px;
+}
+
+/* --- Ranking --- */
+.ranking-list {
+    list-style: none;
+    counter-reset: rank;
+}
+.ranking-list li {
+    counter-increment: rank;
+    padding: 6px 0;
+    border-bottom: 1px dotted #ccc;
+    font-size: 12px;
+    line-height: 1.4;
+}
+.ranking-list li:last-child { border-bottom: none; }
+.ranking-list li::before {
+    content: counter(rank) ".";
+    font-weight: bold;
+    color: #8b1a2b;
+    margin-right: 6px;
+}
+.ranking-list li:nth-child(-n+3)::before {
+    color: #e67e22;
+}
+
+/* --- Category Count --- */
+.category-list {
+    list-style: none;
+}
+.category-list li {
+    padding: 4px 0;
+    border-bottom: 1px dotted #ccc;
+    font-size: 12px;
+}
+.category-list li:last-child { border-bottom: none; }
+.category-list .count {
+    color: #888;
+    font-size: 11px;
+}
+
+/* --- Article Detail --- */
+.article-detail {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+.article-detail h1 {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #8b1a2b;
+    padding-bottom: 8px;
+}
+.article-detail-meta {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px dotted #ccc;
+}
+.article-detail-meta .category-label {
+    color: #e67e22;
+    font-weight: bold;
+}
+.article-detail .content h2 {
+    font-size: 16px;
+    margin: 20px 0 8px;
+    padding: 4px 8px;
+    background: #f5f5f5;
+    border-left: 4px solid #8b1a2b;
+}
+.article-detail .content h3 {
+    font-size: 14px;
+    margin: 16px 0 6px;
+    font-weight: bold;
+}
+.article-detail .content p {
+    margin: 8px 0;
+}
+.article-detail .content ul, .article-detail .content ol {
+    margin: 8px 0 8px 24px;
+}
+.article-detail .content li {
+    margin: 4px 0;
+}
+.article-detail .content blockquote {
+    margin: 12px 0;
+    padding: 8px 12px;
+    background: #f9f9f0;
+    border-left: 4px solid #e67e22;
+    color: #555;
+    font-size: 13px;
+}
+.article-detail .content a {
+    color: #0a4dc2;
+}
+.article-detail .source-link {
+    margin-top: 20px;
+    padding-top: 12px;
+    border-top: 1px solid #ccc;
+    font-size: 12px;
+}
+
+/* --- Back Link --- */
+.back-link {
+    margin: 12px 0;
+    font-size: 13px;
+}
+.back-link a::before {
+    content: "＜ ";
+}
+
+/* --- Footer --- */
+.footer {
+    max-width: 1000px;
+    margin: 24px auto 40px;
+    text-align: center;
+    padding: 0 8px;
+}
+.visitor-counter {
+    background: #1a1a1a;
+    color: #33ff33;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    padding: 8px 16px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+.footer-text {
+    font-size: 11px;
+    color: #888;
+}
+.footer-decoration {
+    color: #999;
+    font-size: 11px;
+    margin-top: 4px;
+}
+
+/* --- Section Headers (jin115 style) --- */
+.section-label {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px 0 12px;
+    padding: 6px 10px;
+    background: #f0f0f0;
+    border-left: 4px solid #3300ff;
+    color: #3300ff;
+}
+.section-label-reaction {
+    border-left-color: #cc0000;
+    color: #cc0000;
+}
+
+/* --- Net Reactions (みんなの反応) --- */
+.reactions {
+    margin: 16px 0;
+    padding: 12px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+}
+.reaction-item {
+    padding: 8px 10px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.6;
+    border-bottom: 1px dotted #ddd;
+}
+.reaction-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+/* jin115風カラフル色分け */
+.reaction-item:nth-child(6n+1) { color: #cc0000; }
+.reaction-item:nth-child(6n+2) { color: #ff0033; }
+.reaction-item:nth-child(6n+3) { color: #ff00ff; }
+.reaction-item:nth-child(6n+4) { color: #6633ff; }
+.reaction-item:nth-child(6n+5) { color: #800080; }
+.reaction-item:nth-child(6n)   { color: #006600; }
+
+/* --- Highlight text (管理人コメント風) --- */
+.editor-comment {
+    font-size: 15px;
+    font-weight: bold;
+    color: #cc0000;
+    margin: 16px 0;
+    padding: 12px;
+    background: #fff8f0;
+    border: 1px dashed #e67e22;
+    line-height: 1.8;
+}
+
+/* --- Separator --- */
+.article-detail .content hr {
+    border: none;
+    border-top: 2px dotted #ccc;
+    margin: 20px 0;
+}
+
+/* --- Comment Count (index) --- */
+.comment-count-link {
+    color: #e67e22 !important;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+/* --- Comment Section --- */
+.comment-section {
+    margin-top: 16px;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+.comment-header {
+    background: #8b1a2b;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 6px 10px;
+}
+.comment-empty {
+    padding: 16px;
+    text-align: center;
+    color: #888;
+    font-size: 12px;
+}
+
+/* 2ch風コメント */
+.comment-item {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.comment-item:nth-child(odd) { background: #faf5ef; }
+.comment-item:nth-child(even) { background: #f5f5f5; }
+
+.comment-meta {
+    font-size: 11px;
+    margin-bottom: 4px;
+}
+.comment-num {
+    font-weight: bold;
+    color: #8b1a2b;
+    margin-right: 6px;
+}
+.comment-name {
+    color: #117711;
+    font-weight: bold;
+    margin-right: 6px;
+}
+.comment-date {
+    color: #888;
+    margin-right: 6px;
+}
+.comment-id {
+    color: #999;
+}
+.comment-body {
+    font-size: 13px;
+    line-height: 1.6;
+    padding-left: 8px;
+}
+
+/* 投稿フォーム */
+.comment-form-wrap {
+    border-top: 2px solid #8b1a2b;
+}
+.comment-form-header {
+    background: #555;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 10px;
+}
+.comment-error {
+    background: #fff0f0;
+    color: #c00;
+    font-size: 12px;
+    padding: 8px 12px;
+    border-bottom: 1px solid #fcc;
+}
+.comment-form {
+    padding: 12px;
+}
+.comment-form-row {
+    margin-bottom: 8px;
+}
+.comment-form-row label {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    color: #555;
+}
+.comment-form-row input[type="text"],
+.comment-form-row textarea {
+    width: 100%;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    padding: 6px 8px;
+    border: 1px solid #ccc;
+    background: #fafafa;
+}
+.comment-form-row textarea {
+    resize: vertical;
+}
+.comment-form-row input:focus,
+.comment-form-row textarea:focus {
+    outline: none;
+    border-color: #8b1a2b;
+    background: #fff;
+}
+.comment-submit {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    font-weight: bold;
+    background: #8b1a2b;
+    color: #fff;
+    border: none;
+    padding: 8px 24px;
+    cursor: pointer;
+}
+.comment-submit:hover {
+    background: #a52035;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .headline-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .article-thumb {
+        width: 80px;
+        height: 56px;
+    }
+}

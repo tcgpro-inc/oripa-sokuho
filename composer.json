@@ -1,0 +1,13 @@
+{
+    "name": "oripa-sokuho/site",
+    "description": "TCGオリパ速報サイト",
+    "require": {
+        "php": ">=8.1",
+        "erusev/parsedown": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "lib/"
+        }
+    }
+}

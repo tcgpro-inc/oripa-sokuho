@@ -1,0 +1,4 @@
+data/comments.db
+.DS_Store
+vendor/
+.claude/

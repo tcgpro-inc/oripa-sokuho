@@ -1,0 +1,19 @@
+RewriteEngine On
+
+# HTTPS強制
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# www なしに統一
+RewriteCond %{HTTP_HOST} ^www\.oripanews\.com$ [NC]
+RewriteRule ^(.*)$ https://oripanews.com/$1 [R=301,L]
+
+# 実在するファイル・ディレクトリはそのまま
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# /article/slug/ → article.php?slug=xxx
+RewriteRule ^article/([a-zA-Z0-9_-]+)/?$ article.php?slug=$1 [L,QSA]
+
+# /comment/post → comment-post.php
+RewriteRule ^comment/post/?$ comment-post.php [L,QSA]
