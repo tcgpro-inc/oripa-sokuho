@@ -4,9 +4,11 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/lib/Content.php';
 require_once __DIR__ . '/lib/Comment.php';
+require_once __DIR__ . '/lib/PageView.php';
 
 $content = new Content(__DIR__ . '/content/articles');
 $commentDb = new Comment(__DIR__ . '/data/comments.db');
+$pageViewDb = new PageView(__DIR__ . '/data/pageviews.db');
 
 // カテゴリフィルター
 $currentCategory = $_GET['category'] ?? '';
@@ -27,6 +29,26 @@ $categoryCounts = $content->getCategoryCounts();
 $allSlugs = array_map(fn($a) => $a['slug'], $articles);
 $commentCounts = $commentDb->countByArticles($allSlugs);
 
+// PVランキング（直近7日間）
+$pvRanking = $pageViewDb->getRanking(5, 7);
+$rankingArticles = [];
+foreach ($pvRanking as $pv) {
+    $a = $content->getArticle($pv['slug']);
+    if ($a) {
+        $rankingArticles[] = $a;
+    }
+}
+// PVデータが不足している場合は新着で補完
+if (count($rankingArticles) < 5) {
+    $existingSlugs = array_map(fn($a) => $a['slug'], $rankingArticles);
+    foreach ($allArticles as $a) {
+        if (!in_array($a['slug'], $existingSlugs, true)) {
+            $rankingArticles[] = $a;
+            if (count($rankingArticles) >= 5) break;
+        }
+    }
+}
+
 $categoryNames = Content::CATEGORY_NAMES;
 
 $pageTitle = $currentCategory
@@ -36,7 +58,7 @@ $pageTitle = $currentCategory
 require __DIR__ . '/templates/header.php';
 ?>
 
-<?php $rankingArticles = $allArticles; require __DIR__ . '/templates/sp-ranking.php'; ?>
+<?php require __DIR__ . '/templates/sp-ranking.php'; ?>
 
 <div class="container">
 
@@ -128,7 +150,7 @@ require __DIR__ . '/templates/header.php';
     <!-- サイドバー -->
     <aside class="sidebar">
         <!-- 勢いランキング -->
-        <?php $rankingArticles = $allArticles; require __DIR__ . '/templates/sidebar-ranking.php'; ?>
+        <?php require __DIR__ . '/templates/sidebar-ranking.php'; ?>
 
         <!-- カテゴリ -->
         <div class="sidebar-box">
