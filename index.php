@@ -44,11 +44,13 @@ require __DIR__ . '/templates/header.php';
         <div class="headline-cards">
             <?php foreach ($hotArticles as $article): ?>
             <a href="/article/<?= urlencode($article['slug']) ?>/" class="headline-card" style="text-decoration:none;color:inherit;">
-                <?php if (!empty($article['meta']['thumbnail_url'])): ?>
                 <div class="headline-card-img">
+                    <?php if (!empty($article['meta']['thumbnail_url'])): ?>
                     <img src="<?= htmlspecialchars($article['meta']['thumbnail_url']) ?>" alt="<?= htmlspecialchars($article['meta']['title'] ?? '') ?>" loading="lazy">
+                    <?php else: ?>
+                    <span class="headline-card-placeholder"><?= htmlspecialchars(mb_substr($article['meta']['tag'] ?? '速報', 0, 3)) ?></span>
+                    <?php endif; ?>
                 </div>
-                <?php endif; ?>
                 <div class="headline-card-body">
                     <div class="headline-card-title">
                         <?= htmlspecialchars($article['meta']['title'] ?? '') ?>
