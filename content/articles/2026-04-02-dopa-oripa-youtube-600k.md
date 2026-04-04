@@ -24,21 +24,76 @@ thumbnail_url: ""
 ## DOPAオリパとは
 ポケカや遊戯王などのTCGオリパを取り扱う大手オリパ専門サービスで、公式YouTubeでの開封動画やキャンペーン告知が人気を集めている。
 
+<div class="section-label section-label-reaction">＜みんなの反応＞</div>
+
+<div class="aa-talk">
+<div class="aa-text">60万人てマジか！！オリパch界隈でここまで伸ばすとかガチですごいお！キャンペーン楽しみすぎるお！！</div>
+<div class="aa-chara">
+<pre>
+　　　　　　 ＿＿＿_
+　　　　　／ 　 　 　 ＼
+　　　　／　 ⌒ 　 ⌒　 ＼　　60万人はオリパ界隈で一番デカいんちゃうかお！
+　　 ／　　（●）　（●）　　＼
+　　 l　 　 ⌒（__人__）⌒　 　 ｌ
+　　 ＼　　 　 ｀⌒´　　 　 ／
+　　 ／　　　 　 　 　 　 　 ＼
+</pre>
+</div>
+</div>
+
+<div class="aa-talk">
+<div class="aa-text">まあ登録だけしてほぼ見てない勢が半分以上おるやろ、正直。キャンペーン景品がSAR一枚とかだったらしょぼすぎて笑えんぞ。</div>
+<div class="aa-chara">
+<pre>
+　　　　　/ ￣￣＼
+　　　　/　　 _ノ　＼
+　　　　|　　 （ ●）（●）
+　　　　|　 　 　（__人__）　　それ言ったらどこのチャンネルも同じやんけ
+　 　 　 |　　 　 ｀ ⌒´ﾉ
+　　　　 |　　　　　　 }
+　　　　 ヽ　　　　 　 }
+　　　　　ヽ　　　　ノ
+　　　　　/　　　 く
+</pre>
+</div>
+</div>
+
+<div class="aa-talk">
+<div class="aa-text">オリパって信頼ゲーやしここまで伸びるのは実績ある証拠やろ！100万人いったらさらにデカいキャンペーンありそうで今から期待しとくお！！</div>
+<div class="aa-chara">
+<pre>
+　　　　　　 ＿＿＿_
+　　　　　／ 　 　 　 ＼
+　　　　／　 ⌒ 　 ⌒　 ＼　　とりあえず応募だけしといたお、当たる気しないけど！
+　　 ／　　（●）　（●）　　＼
+　　 l　 　 ⌒（__人__）⌒　 　 ｌ
+　　 ＼　　 　 ｀⌒´　　 　 ／
+　　 ／　　　 　 　 　 　 　 ＼
+</pre>
+</div>
+</div>
+
+<div class="aa-talk">
+<div class="aa-text">転売ヤーが荒らしにくるのだけは勘弁してほしいけどな。まあ伸びてるのは素直にすごいと思うわ。</div>
+<div class="aa-chara">
+<pre>
+　　　　　/ ￣￣＼
+　　　　/　 ⌒　⌒＼
+　　　　|　 （ ー）（ー）
+　　　　|　 　 　（__人__）　　キャンペーンの中身次第やな、ちゃんとした景品頼むで
+　 　 　 |　　 　 ｀ ⌒´ﾉ
+　　　　 |　　　　　　 }
+　　　　 ヽ　　　　 　 }
+　　　　　ヽ　　　　ノ
+　　　　　/　　　 く
+</pre>
+</div>
+</div>
+
+<div class="editor-comment-wrap">
 <div class="editor-comment">
 60万人はさすがにデカいな、オリパ界隈でここまで伸ばすのはガチで草。キャンペーンの景品次第では参加する価値あるかもしれんけど、転売ヤーが荒らしにくるのだけは勘弁してほしいわ。まあ伸びてるのは素直にすごいと思う。
 </div>
-
-<div class="section-label section-label-reaction">＜みんなの反応＞</div>
-
-<div class="reactions">
-<div class="reaction-item">60万人てマジか、オリパch界隈で一番でかくね？</div>
-<div class="reaction-item">キャンペーンの中身次第やな、外れパックだけ詰めたセットだったらキレる</div>
-<div class="reaction-item">登録だけしてほぼ見てない勢が半分以上おるやろ正直</div>
-<div class="reaction-item">それ言ったらどこのチャンネルも同じやんけw</div>
-<div class="reaction-item">景品がSAR一枚とかだったらしょぼすぎて笑えん</div>
-<div class="reaction-item">普通にすごいと思う、オリパって信頼ゲーやしここまで伸びるのは実績ある証拠やろ</div>
-<div class="reaction-item">100万人いったらさらにデカいキャンペーンありそうやから今から期待しとく</div>
-<div class="reaction-item">とりあえずキャンペーン応募だけしといた、当たる気しないけどな</div>
 </div>
 
 ---

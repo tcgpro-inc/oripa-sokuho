@@ -31,14 +31,76 @@ YouTuberコラボオリパは最近のトレンド。ぷろたんクラスの知
 
 <div class="section-label section-label-reaction">＜みんなの反応＞</div>
 
-<div class="reactions">
-<div class="reaction-item">3時間完売は草</div>
-<div class="reaction-item">ぷろたんの影響力やばすぎやろ</div>
-<div class="reaction-item">還元率100%超えってどういう計算なんや…</div>
-<div class="reaction-item">YouTuberコラボオリパ多すぎて追えんわ</div>
-<div class="reaction-item">実際に開封した人のレビュー待ちやな</div>
-<div class="reaction-item">転売ヤーが買い占めてるだけ説</div>
-<div class="reaction-item">コラボ先のYouTuberが自分で回してる動画出してくれんかな</div>
+<div class="aa-talk">
+<div class="aa-text">3時間完売ってマジか！ぷろたんの影響力えぐすぎやろ、さすがチャンネル登録者数百万超えの化け物や</div>
+<div class="aa-chara">
+<pre>
+　　　　　　 ＿＿＿_
+　　　　　／ 　 　 　 ＼
+　　　　／　 ⌒ 　 ⌒　 ＼　　これは熱い、買いたかったわ
+　　 ／　　（●）　（●）　　＼
+　　 l　 　 ⌒（__人__）⌒　 　 ｌ
+　　 ＼　　 　 ｀⌒´　　 　 ／
+　　 ／　　　 　 　 　 　 　 ＼
+</pre>
+</div>
+</div>
+
+<div class="aa-talk">
+<div class="aa-text">「還元率100%超え」ってどういう計算や…数字のマジックちゃうんか？実際に開封した人のレビュー見るまで信用できんわ</div>
+<div class="aa-chara">
+<pre>
+　　　　　/ ￣￣＼
+　　　　/　　 _ノ　＼
+　　　　|　　 （ ●）（●）
+　　　　|　 　 　（__人__）　　広告の数字は割り引いて見るのが基本や
+　 　 　 |　　 　 ｀ ⌒´ﾉ
+　　　　 |　　　　　　 }
+　　　　 ヽ　　　　 　 }
+　　　　　ヽ　　　　ノ
+　　　　　/　　　 く
+</pre>
+</div>
+</div>
+
+<div class="aa-talk">
+<div class="aa-text">転売ヤーが買い占めてるだけ説あるやろ。YouTuberコラボオリパ最近多すぎて追えんわ</div>
+<div class="aa-chara">
+<pre>
+　　　　　　＿＿＿_
+　　　　　／　　 　 　＼
+　　　 ／　　─　 　 ─＼
+　　／ 　　 （●） 　（●） ＼　　コラボオリパのインフレ止まらんな
+　　|　 　　 　 （__人__）　 　 |
+　./　　　　 ∩ノ ⊃　　／
+　(　 ＼　／ ＿ノ　|　 |
+　.＼　"　　／＿＿|　 |
+　　 ＼ ／＿＿＿ ／
+</pre>
+</div>
+</div>
+
+<div class="aa-talk">
+<div class="aa-text">ぷろたん本人が開封する動画出してくれたら一番わかりやすいんやけどな。実際に引いたレビュー民の報告待ちや</div>
+<div class="aa-chara">
+<pre>
+　　　　　/ ￣￣＼
+　　　　/　 ⌒　⌒＼
+　　　　|　 （ ー）（ー）
+　　　　|　 　 　（__人__）　　一次情報が出るまで様子見が正解やな
+　 　 　 |　　 　 ｀ ⌒´ﾉ
+　　　　 |　　　　　　 }
+　　　　 ヽ　　　　 　 }
+　　　　　ヽ　　　　ノ
+　　　　　/　　　 く
+</pre>
+</div>
+</div>
+
+<div class="editor-comment-wrap">
+<div class="editor-comment">
+YouTuberコラボオリパは最近のトレンド。ぷろたんクラスの知名度だと一瞬で溶けるのは納得。ただ「還元率100%超え」は数字のマジックの可能性もあるので冷静に見ような。
+</div>
 </div>
 
 ---

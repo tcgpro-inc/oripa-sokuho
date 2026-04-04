@@ -11,7 +11,7 @@ body {
     font-family: 'IBM Plex Mono', 'MS PGothic', 'ＭＳ Ｐゴシック', monospace;
     background: #e6e6e6;
     color: #333;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.6;
 }
 
@@ -30,7 +30,7 @@ a:hover { text-decoration: underline; }
     border-bottom: 3px solid #5c0f1a;
 }
 .header-inner {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -58,7 +58,7 @@ a:hover { text-decoration: underline; }
     white-space: nowrap;
 }
 .ticker-inner {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -69,7 +69,7 @@ a:hover { text-decoration: underline; }
     padding: 0;
 }
 .category-tabs-inner {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     gap: 0;
@@ -99,12 +99,12 @@ a:hover { text-decoration: underline; }
 
 /* --- Main Layout --- */
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 16px auto;
     display: grid;
-    grid-template-columns: 1fr 280px;
+    grid-template-columns: 1fr 300px;
     gap: 16px;
-    padding: 0 8px;
+    padding: 0 16px;
 }
 
 /* --- Headline Cards --- */
@@ -384,14 +384,14 @@ a:hover { text-decoration: underline; }
     font-weight: bold;
 }
 .article-detail .content h2 {
-    font-size: 16px;
+    font-size: 18px;
     margin: 20px 0 8px;
     padding: 4px 8px;
     background: #f5f5f5;
     border-left: 4px solid #8b1a2b;
 }
 .article-detail .content h3 {
-    font-size: 14px;
+    font-size: 16px;
     margin: 16px 0 6px;
     font-weight: bold;
 }
@@ -410,7 +410,7 @@ a:hover { text-decoration: underline; }
     background: #f9f9f0;
     border-left: 4px solid #e67e22;
     color: #555;
-    font-size: 13px;
+    font-size: 15px;
 }
 .article-detail .content a {
     color: #0a4dc2;
@@ -446,7 +446,7 @@ a:hover { text-decoration: underline; }
 
 /* --- Footer --- */
 .footer {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 24px auto 40px;
     text-align: center;
     padding: 0 8px;
@@ -468,7 +468,7 @@ a:hover { text-decoration: underline; }
 
 /* --- Section Headers (jin115 style) --- */
 .section-label {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     margin: 20px 0 12px;
     padding: 6px 10px;
@@ -491,7 +491,7 @@ a:hover { text-decoration: underline; }
 .reaction-item {
     padding: 8px 10px;
     margin-bottom: 6px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     line-height: 1.6;
     border-bottom: 1px dotted #ddd;
@@ -509,15 +509,59 @@ a:hover { text-decoration: underline; }
 .reaction-item:nth-child(6n)   { color: #006600; }
 
 /* --- Highlight text (管理人コメント風) --- */
-.editor-comment {
-    font-size: 15px;
-    font-weight: bold;
-    color: #cc0000;
-    margin: 16px 0;
-    padding: 12px;
+.editor-comment-wrap {
+    margin: 20px 0;
     background: #fff8f0;
     border: 1px dashed #e67e22;
+    overflow: hidden;
+}
+.editor-comment {
+    font-size: 16px;
+    font-weight: bold;
+    color: #cc0000;
+    padding: 12px;
     line-height: 1.8;
+}
+.editor-aa {
+    padding: 8px 16px 12px;
+    text-align: center;
+}
+.editor-aa pre {
+    display: inline-block;
+    font-family: 'MS PGothic', 'ＭＳ Ｐゴシック', 'IPAMonaPGothic', 'Mona', monospace;
+    font-size: 13px;
+    line-height: 1.2;
+    color: #333;
+    text-align: left;
+    margin: 0;
+    white-space: pre;
+}
+
+/* --- AA Talk (まとめサイト風会話形式) --- */
+.aa-talk {
+    margin: 18px 0;
+    padding: 0;
+}
+.aa-text {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.8;
+    padding: 0 4px;
+    margin-bottom: 4px;
+}
+.aa-chara {
+    text-align: center;
+    padding: 4px 0 8px;
+}
+.aa-chara pre {
+    display: inline-block;
+    font-family: 'MS PGothic', 'ＭＳ Ｐゴシック', 'IPAMonaPGothic', 'Mona', monospace;
+    font-size: 13px;
+    line-height: 1.2;
+    color: #333;
+    text-align: left;
+    margin: 0;
+    white-space: pre;
 }
 
 /* --- Separator --- */
@@ -717,13 +761,30 @@ a:hover { text-decoration: underline; }
 
 /* --- Responsive --- */
 @media (max-width: 768px) {
+    .header {
+        padding: 10px 12px;
+    }
+    .header .site-title {
+        font-size: 18px;
+    }
+    .ticker {
+        padding: 5px 12px;
+        font-size: 11px;
+    }
+    .category-tabs a {
+        padding: 7px 10px;
+        font-size: 12px;
+    }
     .sp-ranking {
         display: block;
         max-width: 100%;
-        margin: 0 auto;
+        margin: 0;
     }
     .container {
         grid-template-columns: 1fr;
+        padding: 0 8px;
+        margin-top: 8px;
+        gap: 8px;
     }
     .headline-cards {
         grid-template-columns: repeat(2, 1fr);
@@ -731,5 +792,30 @@ a:hover { text-decoration: underline; }
     .article-thumb {
         width: 80px;
         height: 56px;
+    }
+    .article-detail {
+        padding: 12px;
+    }
+    .article-detail h1 {
+        font-size: 17px;
+    }
+    .breadcrumb {
+        margin: 8px 0;
+        font-size: 11px;
+    }
+    .editor-aa pre {
+        font-size: 9px;
+        line-height: 1.1;
+    }
+    .aa-chara pre {
+        font-size: 9px;
+        line-height: 1.1;
+    }
+    .aa-text {
+        font-size: 13px;
+    }
+    .reaction-item {
+        font-size: 13px;
+        padding: 6px 8px;
     }
 }

@@ -36,15 +36,74 @@ thumbnail_url: "https://prcdn.freetls.fastly.net/release_image/113626/272/113626
 
 <div class="section-label section-label-reaction">＜みんなの反応＞</div>
 
-<div class="reactions">
-<div class="reaction-item">ランクシステムとかいう集金装置で草</div>
-<div class="reaction-item">トレバの会社がやってるんか、クレーンゲームの次はオリパか</div>
-<div class="reaction-item">1周年おめ、でもランク上げるために回す→沼の未来が見える</div>
-<div class="reaction-item">ポイント倍率アップは普通にええやん</div>
-<div class="reaction-item">ワイ最低ランクで一生終わりそう</div>
-<div class="reaction-item">限定オリパの中身が気になるんやが</div>
-<div class="reaction-item">1年続いてるってだけで信頼感あるわ、すぐ消えるとこ多いし</div>
-<div class="reaction-item">ランク6とかどんだけ課金したらなれるんや…</div>
+<div class="aa-talk">
+<div class="aa-text">1周年おめ！でもランクシステムって「あとちょっとで次のランク」ってなって財布が死ぬやつやん、ソシャゲで何度も見た光景や</div>
+<div class="aa-chara">
+<pre>
+　　　　　　 ＿＿＿_
+　　　　　／ 　 　 　 ＼
+　　　　／　 ⌒ 　 ⌒　 ＼　　1周年はおめでたいけど課金は計画的にな
+　　 ／　　（●）　（●）　　＼
+　　 l　 　 ⌒（__人__）⌒　 　 ｌ
+　　 ＼　　 　 ｀⌒´　　 　 ／
+　　 ／　　　 　 　 　 　 　 ＼
+</pre>
+</div>
+</div>
+
+<div class="aa-talk">
+<div class="aa-text">ランクシステムは集金装置やろ。ランク6になるのにいくら課金すんねん…ワイは最低ランクで一生終わりそうや</div>
+<div class="aa-chara">
+<pre>
+　　　　　/ ￣￣＼
+　　　　/　　 _ノ　＼
+　　　　|　　 （ ●）（●）
+　　　　|　 　 　（__人__）　　ポイント倍率アップは普通にお得やから計画的に使えばええで
+　 　 　 |　　 　 ｀ ⌒´ﾉ
+　　　　 |　　　　　　 }
+　　　　 ヽ　　　　 　 }
+　　　　　ヽ　　　　ノ
+　　　　　/　　　 く
+</pre>
+</div>
+</div>
+
+<div class="aa-talk">
+<div class="aa-text">トレバ（クレーンゲーム）の会社がオリパやってるんか。なんか1周年限定オリパの中身が気になるんやけど情報ないんか？</div>
+<div class="aa-chara">
+<pre>
+　　　　　　＿＿＿_
+　　　　　／　　 　 　＼
+　　　　／　─　 　 ─　＼
+　　 ／ 　 （∧） 　（∧） 　＼　　中身の詳細はアプリ見るしかないな
+　.　|　 　 　 （__人__）　　 　 |
+　　 ＼　 　　 ｀⌒´ 　　　,／
+　　 ／　　　 　ー‐　　　　＼
+</pre>
+</div>
+</div>
+
+<div class="aa-talk">
+<div class="aa-text">1年続いてるってだけで信頼感あるわ、すぐ消えるオンラインオリパ多すぎるからな。沼になりやすいのは認めつつも続いてるとこは評価する</div>
+<div class="aa-chara">
+<pre>
+　　　　　/ ￣￣＼
+　　　　/　 ⌒　⌒＼
+　　　　|　 （ ー）（ー）
+　　　　|　 　 　（__人__）　　継続してる実績はオンラインオリパ選びの重要指標やな
+　 　 　 |　　 　 ｀ ⌒´ﾉ
+　　　　 |　　　　　　 }
+　　　　 ヽ　　　　 　 }
+　　　　　ヽ　　　　ノ
+　　　　　/　　　 く
+</pre>
+</div>
+</div>
+
+<div class="editor-comment-wrap">
+<div class="editor-comment">
+ランクシステムは沼への片道切符やぞ。「あとちょっとで次のランク」で財布が緩むやつ、ソシャゲで見たことある。でもポイント倍率アップは普通にありがたいから、計画的に使えるなら悪くない。
+</div>
 </div>
 
 ---
