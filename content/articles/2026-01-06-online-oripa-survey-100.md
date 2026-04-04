@@ -29,75 +29,27 @@ thumbnail_url: "https://prcdn.freetls.fastly.net/release_image/175147/1/175147-1
 
 <div class="section-label section-label-reaction">＜みんなの反応＞</div>
 
-<div class="aa-talk">
-<div class="aa-text">54%が不信感持ちながら67%が利用してるって意味わからんくない？「信用してないけど引いちゃう」てもうギャンブルやん</div>
-<div class="aa-chara">
-<pre>
-　　　　　　＿＿＿_
-　　　　　／　　 　 　＼
-　　　　／　⌒　 　 ⌒　＼
-　　 ／ 　 （＞） 　（＜） 　＼　　なんでわかってて引くんや…
-　.　|　 　 　 （__人__）　　 　 |
-　　 ＼　 　　 ｀⌒´ 　　　,／
-　　 ／　　　 　ー‐　　　　＼
-</pre>
-</div>
-</div>
-
-<div class="aa-talk">
-<div class="aa-text">確率の開示義務化とか第三者監査は絶対必要やろ。まともな業者ほど損する構造になってるのおかしいって</div>
-<div class="aa-chara">
-<pre>
-　　　　　/ ￣￣＼
-　　　　/　　 _ノ　＼
-　　　　|　　 （ ●）（●）
-　　　　|　 　 　（__人__）　　信頼性の担保がないと業界ごと死ぬで
-　 　 　 |　　 　 ｀ ⌒´ﾉ
-　　　　 |　　　　　　 }
-　　　　 ヽ　　　　 　 }
-　　　　　ヽ　　　　ノ
-　　　　　/　　　 く
-</pre>
-</div>
-</div>
-
-<div class="aa-talk">
-<div class="aa-text">グレーゾーンなのにこんだけ普及してるのやばくない？規制入る前に稼ぎ逃げする業者絶対出てくるやん</div>
-<div class="aa-chara">
-<pre>
-　　　　　　＿＿＿_
-　　　　　／　　 　 　＼
-　　　 ／　　─　 　 ─＼
-　　／ 　　 （●） 　（●） ＼　　パチンコ規制の二の舞になりそうで怖い
-　　|　 　　 　 （__人__）　 　 |
-　./　　　　 ∩ノ ⊃　　／
-　(　 ＼　／ ＿ノ　|　 |
-　.＼　"　　／＿＿|　 |
-　　 ＼ ／＿＿＿ ／
-</pre>
-</div>
-</div>
-
-<div class="aa-talk">
-<div class="aa-text">第三者監査入れてるとこだけ使うのが正解やな。開封動画の検証もサンプル少なすぎて信用しきれんし</div>
-<div class="aa-chara">
-<pre>
-　　　　　/ ￣￣＼
-　　　　/　 ⌒　⌒＼
-　　　　|　 （ ー）（ー）
-　　　　|　 　 　（__人__）　　ユーザー側も賢くなるしかないよな
-　 　 　 |　　 　 ｀ ⌒´ﾉ
-　　　　 |　　　　　　 }
-　　　　 ヽ　　　　 　 }
-　　　　　ヽ　　　　ノ
-　　　　　/　　　 く
-</pre>
-</div>
+<div class="reactions">
+<div class="reaction-item">54%が不信感持ちながら67%が利用してるって意味わからんくない？「信用してないけど引いちゃう」てもうギャンブルやん</div>
+<div class="reaction-item">確率の開示義務化とか第三者監査は絶対必要やろ。まともな業者ほど損する構造になってるのおかしいって</div>
+<div class="reaction-item">グレーゾーンなのにこんだけ普及してるのやばくない？規制入る前に稼ぎ逃げする業者絶対出てくるやん</div>
+<div class="reaction-item">第三者監査入れてるとこだけ使うのが正解やな。開封動画の検証もサンプル少なすぎて信用しきれんし</div>
 </div>
 
 <div class="editor-comment-wrap">
 <div class="editor-comment">
 半数以上が不信感持ってるのに利用率67%ってのが闇。「当たるかわからないけどやっちゃう」のはもはやギャンブルと同じ構造やね。業界全体で透明性を上げていかないと規制が入る可能性もあるぞ。
+</div>
+<div class="editor-aa">
+<pre>
+　　　　　　＿＿＿_
+　　　　　／　　 　 　＼
+　　　　／　⌒　 　 ⌒　＼
+　　 ／ 　 （＞） 　（＜） 　＼　　不信感あるのに引くのはもうギャンブルと同じ構造やで
+　.　|　 　 　 （__人__）　　 　 |
+　　 ＼　 　　 ｀⌒´ 　　　,／
+　　 ／　　　 　ー‐　　　　＼
+</pre>
 </div>
 </div>
 

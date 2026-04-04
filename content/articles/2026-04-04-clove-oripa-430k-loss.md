@@ -36,73 +36,27 @@ thumbnail_url: "https://prcdn.freetls.fastly.net/release_image/59394/7/59394-7-d
 
 <div class="section-label section-label-reaction">＜みんなの反応＞</div>
 
-<div class="aa-talk">
-<div class="aa-text">43万でゴミは草、いやもう草じゃすまんレベルやお！！43万あったらリーリエSAR2枚買ってお釣り来るのになんでオリパに全突したんや！！！</div>
-<div class="aa-chara">
-<pre>
-　　　　　　＿＿＿_
-　　　　　／　　 　 　＼
-　　　　／　⌒　 　 ⌒　＼
-　　 ／ 　 （＞） 　（＜） 　＼　　43万あったらSAR直接買えたのに…うわあああお
-　.　|　 　 　 （__人__）　　 　 |
-　　 ＼　 　　 ｀⌒´ 　　　,／
-　　 ／　　　 　ー‐　　　　＼
-</pre>
-</div>
-</div>
-
-<div class="aa-talk">
-<div class="aa-text">統計的には860口で当たらん方が普通なんよな。確率0.1%って17,000口中17口しか当たりないんやから。まあ確率公表してるだけマシって言う人もおるけど、それ以前の問題やろ。</div>
-<div class="aa-chara">
-<pre>
-　　　　　/ ￣￣＼
-　　　　/　　 _ノ　＼
-　　　　|　　 （ ●）（●）
-　　　　|　 　 　（__人__）　　当たり報告が「ある」のと「自分が当たる」のは全然違う話や
-　 　 　 |　　 　 ｀ ⌒´ﾉ
-　　　　 |　　　　　　 }
-　　　　 ヽ　　　　 　 }
-　　　　　ヽ　　　　ノ
-　　　　　/　　　 く
-</pre>
-</div>
-</div>
-
-<div class="aa-talk">
-<div class="aa-text">YouTuberだからネタになるけど一般人がこれやったら人生終わるぞ！！80分で43万消えるって秒速9,000円やんけ…ATMかよ！！！</div>
-<div class="aa-chara">
-<pre>
-　　　　　　＿＿＿_
-　　　　　／　　 　 　＼
-　　　　／　⌒　 　 ⌒　＼
-　　 ／ 　 （＞） 　（＜） 　＼　　「還元率○○%」とか宣伝しといて中身がこれやからな…
-　.　|　 　 　 （__人__）　　 　 |
-　　 ＼　 　　 ｀⌒´ 　　　,／
-　　 ／　　　 　ー‐　　　　＼
-</pre>
-</div>
-</div>
-
-<div class="aa-talk">
-<div class="aa-text">「古物商許可あるから合法」ってずっと免罪符にしてるよな。こういう動画が出るたびにオリパ規制の議論が進むのは結果的にはええことやと思うわ。</div>
-<div class="aa-chara">
-<pre>
-　　　　　/ ￣￣＼
-　　　　/　 ⌒　⌒＼
-　　　　|　 （ ー）（ー）
-　　　　|　 　 　（__人__）　　確率0.1%のオリパに全突する方もどうかとは思うけどな
-　 　 　 |　　 　 ｀ ⌒´ﾉ
-　　　　 |　　　　　　 }
-　　　　 ヽ　　　　 　 }
-　　　　　ヽ　　　　ノ
-　　　　　/　　　 く
-</pre>
-</div>
+<div class="reactions">
+<div class="reaction-item">43万でゴミは草、いやもう草じゃすまんレベルやお！！43万あったらリーリエSAR2枚買ってお釣り来るのになんでオリパに全突したんや！！！</div>
+<div class="reaction-item">統計的には860口で当たらん方が普通なんよな。確率0.1%って17,000口中17口しか当たりないんやから。まあ確率公表してるだけマシって言う人もおるけど、それ以前の問題やろ。</div>
+<div class="reaction-item">YouTuberだからネタになるけど一般人がこれやったら人生終わるぞ！！80分で43万消えるって秒速9,000円やんけ…ATMかよ！！！</div>
+<div class="reaction-item">「古物商許可あるから合法」ってずっと免罪符にしてるよな。こういう動画が出るたびにオリパ規制の議論が進むのは結果的にはええことやと思うわ。</div>
 </div>
 
 <div class="editor-comment-wrap">
 <div class="editor-comment">
 43万でカス…これは泣くわ。「還元率○○%」とか派手に宣伝しといて中身はこれやからな。
+</div>
+<div class="editor-aa">
+<pre>
+　　　　　　＿＿＿_
+　　　　　／　　 　 　＼
+　　　　／　⌒　 　 ⌒　＼
+　　 ／ 　 （＞） 　（＜） 　＼　　43万つぎ込んでカスしか出えへんとかもう笑えんやろ…
+　.　|　 　 　 （__人__）　　 　 |
+　　 ＼　 　　 ｀⌒´ 　　　,／
+　　 ／　　　 　ー‐　　　　＼
+</pre>
 </div>
 </div>
 

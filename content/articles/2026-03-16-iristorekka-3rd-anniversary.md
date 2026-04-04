@@ -31,73 +31,27 @@ thumbnail_url: "https://prcdn.freetls.fastly.net/release_image/21743/233/21743-2
 
 <div class="section-label section-label-reaction">＜みんなの反応＞</div>
 
-<div class="aa-talk">
-<div class="aa-text">0ptオリパ毎日配布きたああ！3周年でこの太っ腹っぷりはすごいわ、オンラインオリパ界の古参やから余裕あるんやろな</div>
-<div class="aa-chara">
-<pre>
-　　　　　　 ＿＿＿_
-　　　　　／ 　 　 　 ＼
-　　　　／　 ⌒ 　 ⌒　 ＼　　毎日タダで引けるの普通にありがたすぎる
-　　 ／　　（●）　（●）　　＼
-　　 l　 　 ⌒（__人__）⌒　 　 ｌ
-　　 ＼　　 　 ｀⌒´　　 　 ／
-　　 ／　　　 　 　 　 　 　 ＼
-</pre>
-</div>
-</div>
-
-<div class="aa-talk">
-<div class="aa-text">無料で釣って課金させるのわかってるけど引いちゃうんよなぁ。6大企画のうち残り4つが何なのかめちゃ気になるんやが</div>
-<div class="aa-chara">
-<pre>
-　　　　　/ ￣￣＼
-　　　　/　　 _ノ　＼
-　　　　|　　 （ ●）（●）
-　　　　|　 　 　（__人__）　　毎日ログインの習慣化が狙いやけど、タダなら使わん手はないで
-　 　 　 |　　 　 ｀ ⌒´ﾉ
-　　　　 |　　　　　　 }
-　　　　 ヽ　　　　 　 }
-　　　　　ヽ　　　　ノ
-　　　　　/　　　 く
-</pre>
-</div>
-</div>
-
-<div class="aa-talk">
-<div class="aa-text">アクセルマーク系列ってcarderiaと同じとこなんか！3年続いてるなら逃げ足とか心配しなくてええやろ、プレミアムオリパ期待してええんか？</div>
-<div class="aa-chara">
-<pre>
-　　　　　　＿＿＿_
-　　　　　／　　 　 　＼
-　　　　／　─　 　 ─　＼
-　　 ／ 　 （∧） 　（∧） 　＼　　周年記念やし中身は期待していいと思うで
-　.　|　 　 　 （__人__）　　 　 |
-　　 ＼　 　　 ｀⌒´ 　　　,／
-　　 ／　　　 　ー‐　　　　＼
-</pre>
-</div>
-</div>
-
-<div class="aa-talk">
-<div class="aa-text">3年続いてるのはオンラインオリパ界では普通にすごいことやで。1年持たずに消えるとこ多いからな、継続してる実績は信頼の証や</div>
-<div class="aa-chara">
-<pre>
-　　　　　/ ￣￣＼
-　　　　/　 ⌒　⌒＼
-　　　　|　 （ ー）（ー）
-　　　　|　 　 　（__人__）　　使ったことないなら評判確認してから手を出すのがええな
-　 　 　 |　　 　 ｀ ⌒´ﾉ
-　　　　 |　　　　　　 }
-　　　　 ヽ　　　　 　 }
-　　　　　ヽ　　　　ノ
-　　　　　/　　　 く
-</pre>
-</div>
+<div class="reactions">
+<div class="reaction-item">0ptオリパ毎日配布きたああ！3周年でこの太っ腹っぷりはすごいわ、オンラインオリパ界の古参やから余裕あるんやろな</div>
+<div class="reaction-item">無料で釣って課金させるのわかってるけど引いちゃうんよなぁ。6大企画のうち残り4つが何なのかめちゃ気になるんやが</div>
+<div class="reaction-item">アクセルマーク系列ってcarderiaと同じとこなんか！3年続いてるなら逃げ足とか心配しなくてええやろ、プレミアムオリパ期待してええんか？</div>
+<div class="reaction-item">3年続いてるのはオンラインオリパ界では普通にすごいことやで。1年持たずに消えるとこ多いからな、継続してる実績は信頼の証や</div>
 </div>
 
 <div class="editor-comment-wrap">
 <div class="editor-comment">
 0ptオリパ毎日配布は新規獲得のド定番やけど、毎日ログインさせる導線としては強い。3年続いてるのは普通にすごい、オンラインオリパは1年持たずに消えるとこも多いからな。
+</div>
+<div class="editor-aa">
+<pre>
+　　　　　　 ＿＿＿_
+　　　　　／ 　 　 　 ＼
+　　　　／　 ⌒ 　 ⌒　 ＼　　3年続いてるのはガチで信頼の証やで
+　　 ／　　（●）　（●）　　＼
+　　 l　 　 ⌒（__人__）⌒　 　 ｌ
+　　 ＼　　 　 ｀⌒´　　 　 ／
+　　 ／　　　 　 　 　 　 　 ＼
+</pre>
 </div>
 </div>
 
