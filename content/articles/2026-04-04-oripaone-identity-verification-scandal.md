@@ -16,6 +16,12 @@ thumbnail_url: "https://prcdn.freetls.fastly.net/release_image/166478/1/166478-1
 
 <blockquote class="twitter-tweet"><a href="https://x.com/airconkansai/status/2038866155176378709"></a></blockquote>
 
+この投稿は瞬く間に拡散され、他のユーザーからも反応が相次いだ。
+
+<blockquote class="twitter-tweet"><a href="https://x.com/kodama417/status/2039729070087479692"></a></blockquote>
+
+<blockquote class="twitter-tweet"><a href="https://x.com/MEIOTTO_tetsu/status/1977938787046129916"></a></blockquote>
+
 <div class="section-label">■ 炎上の経緯</div>
 
 ## ポイントまとめ
