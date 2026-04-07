@@ -18,7 +18,12 @@ if (preg_match('#^/article/([a-zA-Z0-9_-]+)/?$#', $uri, $m)) {
     return true;
 }
 
-// /campaign/ → campaign.php
+// /campaign/ or /campaign/pokeka/ → campaign.php
+if (preg_match('#^/campaign/([a-z]+)/?$#', $uri, $m)) {
+    $_GET['cat'] = $m[1];
+    require __DIR__ . '/campaign.php';
+    return true;
+}
 if (preg_match('#^/campaign/?$#', $uri)) {
     require __DIR__ . '/campaign.php';
     return true;

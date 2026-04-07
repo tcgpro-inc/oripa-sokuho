@@ -836,6 +836,35 @@ a:hover { text-decoration: underline; }
     color: #666;
     margin: 0 0 20px;
 }
+.campaign-cat-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 20px;
+}
+.campaign-cat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 16px;
+    background: #fff;
+    border: 2px solid #8b1a2b;
+    text-decoration: none;
+    color: #8b1a2b;
+}
+.campaign-cat-card:hover {
+    background: #8b1a2b;
+    color: #fff;
+}
+.campaign-cat-label {
+    font-size: 18px;
+    font-weight: bold;
+}
+.campaign-cat-sub {
+    font-size: 12px;
+    margin-top: 4px;
+}
 .campaign-shortcuts {
     display: flex;
     gap: 8px;
@@ -845,68 +874,98 @@ a:hover { text-decoration: underline; }
 .campaign-shortcut {
     display: inline-block;
     padding: 8px 16px;
-    background: #8b1a2b;
-    color: #fff;
+    background: #f5f5f0;
+    color: #8b1a2b;
     text-decoration: none;
     font-size: 13px;
     font-weight: bold;
-    border: 2px solid #6b1020;
-}
-.campaign-shortcut:hover {
-    background: #e67e22;
-    border-color: #cf6d17;
-}
-.campaign-section {
-    margin-bottom: 32px;
-    scroll-margin-top: 16px;
-}
-.campaign-section-title {
-    font-size: 16px;
-    color: #fff;
-    background: #8b1a2b;
-    padding: 8px 12px;
-    margin: 0 0 12px;
-    border-left: 4px solid #e67e22;
-}
-.campaign-tweets {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
-}
-.campaign-tweet-item {
-    min-width: 0;
-}
-.campaign-tweet-item blockquote {
-    margin: 0;
-}
-.campaign-hidden {
-    display: none;
-}
-.campaign-tweet-placeholder {
-    padding: 20px;
-    text-align: center;
-    color: #999;
-    font-size: 12px;
-    background: #f9f9f5;
-    border: 1px dashed #ccc;
-}
-.campaign-more-btn {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin: 12px 0 0;
-    background: #f5f5f0;
     border: 2px solid #8b1a2b;
-    color: #8b1a2b;
-    font-size: 13px;
-    font-weight: bold;
-    font-family: 'IBM Plex Mono', monospace;
-    cursor: pointer;
-    text-align: center;
 }
-.campaign-more-btn:hover {
+.campaign-shortcut:hover,
+.campaign-shortcut.active {
     background: #8b1a2b;
     color: #fff;
+}
+.campaign-table-wrap {
+    overflow-x: auto;
+}
+.campaign-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    background: #fff;
+}
+.campaign-table th {
+    background: #8b1a2b;
+    color: #fff;
+    padding: 8px 10px;
+    text-align: left;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.campaign-table th.sortable {
+    cursor: pointer;
+    user-select: none;
+}
+.campaign-table th.sortable:hover {
+    background: #a12035;
+}
+.sort-icon {
+    font-size: 10px;
+    margin-left: 2px;
+}
+.campaign-table td {
+    padding: 8px 10px;
+    border-bottom: 1px solid #e0e0e0;
+    vertical-align: top;
+}
+.campaign-table tbody tr:nth-child(odd) {
+    background: #f9f9f5;
+}
+.campaign-table tbody tr:nth-child(even) {
+    background: #f0f0ec;
+}
+.campaign-table tbody tr:hover {
+    background: #fffde6;
+}
+.td-title {
+    max-width: 260px;
+    font-weight: bold;
+    color: #333;
+}
+.td-account a {
+    color: #0a4dc2;
+    text-decoration: none;
+    font-size: 12px;
+}
+.td-account a:hover {
+    text-decoration: underline;
+}
+.td-prize {
+    font-size: 12px;
+    color: #555;
+}
+.td-deadline {
+    white-space: nowrap;
+    font-weight: bold;
+    color: #c0392b;
+}
+.td-engagement {
+    white-space: nowrap;
+}
+.td-engagement small {
+    color: #888;
+    font-size: 11px;
+}
+.td-link a {
+    color: #e67e22;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.td-link a:hover {
+    text-decoration: underline;
 }
 .campaign-error {
     color: #c0392b;
@@ -948,13 +1007,16 @@ a:hover { text-decoration: underline; }
     line-height: 1.6;
 }
 @media (max-width: 768px) {
-    .campaign-tweets {
+    .campaign-cat-grid {
         grid-template-columns: 1fr;
     }
     .campaign-title {
         font-size: 17px;
     }
-    .campaign-section-title {
-        font-size: 14px;
+    .campaign-table {
+        font-size: 12px;
+    }
+    .td-title {
+        max-width: 160px;
     }
 }

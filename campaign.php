@@ -15,24 +15,35 @@ $categories = [
     'yugioh' => ['label' => '遊戯王', 'keyword' => '遊戯王'],
 ];
 
-// X API検索（キャッシュ1時間）
-$xSearch = new XSearch($twitterConfig);
-$results = [];
-$errors = [];
+$currentCat = $_GET['cat'] ?? '';
+$isCategory = isset($categories[$currentCat]);
 
-foreach ($categories as $slug => $cat) {
+// カテゴリページの場合のみAPI検索
+$tweets = [];
+$error = '';
+if ($isCategory) {
+    $xSearch = new XSearch($twitterConfig);
     try {
-        $results[$slug] = $xSearch->searchCampaignTweets($cat['keyword'], 20);
+        $result = $xSearch->searchCampaignTweets($categories[$currentCat]['keyword'], 20);
+        foreach ($result['tweets'] as $tweet) {
+            $tweets[] = XSearch::parseTweetData($tweet);
+        }
     } catch (\Throwable $e) {
-        $errors[$slug] = $e->getMessage();
-        $results[$slug] = ['tweets' => [], 'cached' => false];
+        $error = $e->getMessage();
     }
 }
 
 // ページ設定
-$pageTitle = 'プレキャン・プレゼント企画まとめ｜オリパ速報';
-$metaDescription = 'ポケカ・遊戯王・ワンピースのプレゼントキャンペーン・プレゼント企画をリアルタイムでまとめています。';
-$canonical = 'https://oripanews.com/campaign/';
+if ($isCategory) {
+    $catLabel = $categories[$currentCat]['label'];
+    $pageTitle = "{$catLabel}のプレキャン・プレゼント企画一覧｜オリパ速報";
+    $metaDescription = "{$catLabel}のプレゼントキャンペーン・プレゼント企画をリアルタイムでまとめています。";
+    $canonical = "https://oripanews.com/campaign/{$currentCat}/";
+} else {
+    $pageTitle = 'プレキャン・プレゼント企画まとめ｜オリパ速報';
+    $metaDescription = 'ポケカ・遊戯王・ワンピースのプレゼントキャンペーン・プレゼント企画をリアルタイムでまとめています。';
+    $canonical = 'https://oripanews.com/campaign/';
+}
 $ogType = 'website';
 $ogTitle = $pageTitle;
 $ogDescription = $metaDescription;
@@ -54,53 +65,83 @@ require __DIR__ . '/templates/header.php';
 <div class="container">
     <main>
         <div class="campaign-page">
+
+<?php if (!$isCategory): ?>
             <h1 class="campaign-title">◆ プレキャン・プレゼント企画まとめ ◆</h1>
-            <p class="campaign-desc">X（旧Twitter）上のプレゼントキャンペーン投稿を自動収集しています（直近7日間・1時間ごと更新）</p>
+            <p class="campaign-desc">ジャンルを選んでください</p>
+
+            <div class="campaign-cat-grid">
+                <?php foreach ($categories as $slug => $cat): ?>
+                    <a href="/campaign/<?= $slug ?>/" class="campaign-cat-card">
+                        <span class="campaign-cat-label"><?= htmlspecialchars($cat['label']) ?></span>
+                        <span class="campaign-cat-sub">プレキャン一覧 →</span>
+                    </a>
+                <?php endforeach; ?>
+            </div>
+
+<?php else: ?>
+            <h1 class="campaign-title">◆ <?= htmlspecialchars($catLabel) ?> プレキャン一覧 ◆</h1>
+            <p class="campaign-desc">X上のプレゼント企画を自動収集（直近7日間・1時間ごと更新）</p>
 
             <nav class="campaign-shortcuts">
                 <?php foreach ($categories as $slug => $cat): ?>
-                    <a href="#<?= $slug ?>" class="campaign-shortcut"><?= htmlspecialchars($cat['label']) ?>（<?= count($results[$slug]['tweets']) ?>件）</a>
+                    <a href="/campaign/<?= $slug ?>/" class="campaign-shortcut<?= $slug === $currentCat ? ' active' : '' ?>"><?= htmlspecialchars($cat['label']) ?></a>
                 <?php endforeach; ?>
             </nav>
 
-            <?php foreach ($categories as $slug => $cat): ?>
-                <section class="campaign-section" id="<?= $slug ?>">
-                    <h2 class="campaign-section-title">■ <?= htmlspecialchars($cat['label']) ?></h2>
-
-                    <?php if (!empty($errors[$slug])): ?>
-                        <p class="campaign-error">※ 取得エラー: データを読み込めませんでした</p>
-                    <?php elseif (empty($results[$slug]['tweets'])): ?>
-                        <p class="campaign-empty">※ 該当するプレキャン投稿が見つかりませんでした</p>
-                    <?php else: ?>
-                        <div class="campaign-tweets">
-                            <?php foreach ($results[$slug]['tweets'] as $i => $tweet): ?>
-                                <div class="campaign-tweet-item<?= $i >= 4 ? ' campaign-hidden' : '' ?>"
-                                     data-tweet-id="<?= htmlspecialchars($tweet['id']) ?>"
-                                     data-tweet-username="<?= htmlspecialchars($tweet['username']) ?>"
-                                     data-tweet-name="<?= htmlspecialchars($tweet['name']) ?>"
-                                     data-tweet-text="<?= htmlspecialchars(mb_substr($tweet['text'], 0, 140)) ?>"
-                                     data-tweet-date="<?= date('Y年n月j日', strtotime($tweet['created_at'])) ?>"
-                                     data-tweet-url="https://x.com/<?= htmlspecialchars($tweet['username']) ?>/status/<?= htmlspecialchars($tweet['id']) ?>">
-                                    <div class="campaign-tweet-placeholder">読み込み中...</div>
-                                </div>
+            <?php if ($error): ?>
+                <p class="campaign-error">※ 取得エラー: データを読み込めませんでした</p>
+            <?php elseif (empty($tweets)): ?>
+                <p class="campaign-empty">※ 該当するプレキャン投稿が見つかりませんでした</p>
+            <?php else: ?>
+                <div class="campaign-table-wrap">
+                    <table class="campaign-table" id="campaignTable">
+                        <thead>
+                            <tr>
+                                <th>タイトル</th>
+                                <th>アカウント</th>
+                                <th class="sortable" data-sort="string">景品 <span class="sort-icon">⇅</span></th>
+                                <th class="sortable" data-sort="date">締切 <span class="sort-icon">⇅</span></th>
+                                <th class="sortable" data-sort="number">盛り上がり <span class="sort-icon">⇅</span></th>
+                                <th>リンク</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php foreach ($tweets as $t): ?>
+                                <tr>
+                                    <td class="td-title"><?= htmlspecialchars($t['title']) ?></td>
+                                    <td class="td-account"><a href="https://x.com/<?= htmlspecialchars($t['username']) ?>" target="_blank" rel="noopener">@<?= htmlspecialchars($t['username']) ?></a></td>
+                                    <td class="td-prize" data-sort-value="<?= htmlspecialchars($t['prize']) ?>"><?= htmlspecialchars($t['prize']) ?></td>
+                                    <td class="td-deadline" data-sort-value="<?= htmlspecialchars($t['deadline_raw']) ?>"><?= htmlspecialchars($t['deadline']) ?></td>
+                                    <td class="td-engagement" data-sort-value="<?= $t['engagement'] ?>">
+                                        <?php
+                                        $eng = $t['engagement'];
+                                        if ($eng >= 500) echo '🔥🔥🔥';
+                                        elseif ($eng >= 100) echo '🔥🔥';
+                                        elseif ($eng >= 20) echo '🔥';
+                                        else echo '―';
+                                        ?>
+                                        <small>(<?= number_format($eng) ?>)</small>
+                                    </td>
+                                    <td class="td-link"><a href="<?= htmlspecialchars($t['url']) ?>" target="_blank" rel="noopener">ポストを見る→</a></td>
+                                </tr>
                             <?php endforeach; ?>
-                        </div>
-                        <?php if (count($results[$slug]['tweets']) > 4): ?>
-                            <button class="campaign-more-btn" data-target="<?= $slug ?>">▼ もっと見る（残り<?= count($results[$slug]['tweets']) - 4 ?>件）</button>
-                        <?php endif; ?>
-                    <?php endif; ?>
-                </section>
-            <?php endforeach; ?>
+                        </tbody>
+                    </table>
+                </div>
+            <?php endif; ?>
+<?php endif; ?>
+
         </div>
     </main>
 
     <aside class="sidebar">
         <div class="sidebar-box">
-            <div class="sidebar-box-header">◆ カテゴリ</div>
+            <div class="sidebar-box-header">◆ ジャンル</div>
             <div class="sidebar-box-body">
                 <ul class="campaign-nav">
                     <?php foreach ($categories as $slug => $cat): ?>
-                        <li><a href="#<?= $slug ?>"><?= htmlspecialchars($cat['label']) ?>（<?= count($results[$slug]['tweets']) ?>件）</a></li>
+                        <li><a href="/campaign/<?= $slug ?>/"><?= htmlspecialchars($cat['label']) ?></a></li>
                     <?php endforeach; ?>
                 </ul>
             </div>
@@ -108,7 +149,7 @@ require __DIR__ . '/templates/header.php';
         <div class="sidebar-box">
             <div class="sidebar-box-header">◆ このページについて</div>
             <div class="sidebar-box-body campaign-about">
-                X上のポケカ・遊戯王・ワンピースのプレゼント企画を自動で収集しています。<br>
+                X上のプレゼント企画を自動で収集しています。<br>
                 データは1時間ごとに更新されます。<br>
                 <small>※ 直近7日間の投稿が対象です</small>
             </div>
@@ -116,63 +157,53 @@ require __DIR__ . '/templates/header.php';
     </aside>
 </div>
 
+<?php if ($isCategory && !empty($tweets)): ?>
 <script>
 (function() {
-    // IntersectionObserverで遅延レンダリング
-    function renderTweet(item) {
-        if (item.dataset.rendered) return;
-        item.dataset.rendered = '1';
+    var table = document.getElementById('campaignTable');
+    if (!table) return;
 
-        var bq = document.createElement('blockquote');
-        bq.className = 'twitter-tweet';
+    var headers = table.querySelectorAll('th.sortable');
+    var tbody = table.querySelector('tbody');
 
-        var p = document.createElement('p');
-        p.textContent = item.dataset.tweetText;
-        bq.appendChild(p);
+    headers.forEach(function(th, colIndex) {
+        // sortableのカラムインデックスを実際のtdインデックスに変換
+        var actualIndex = Array.from(th.parentNode.children).indexOf(th);
+        var sortType = th.dataset.sort;
+        var ascending = true;
 
-        var meta = document.createTextNode('\u2014 ' + item.dataset.tweetName + ' (@' + item.dataset.tweetUsername + ') ');
-        bq.appendChild(meta);
+        th.style.cursor = 'pointer';
+        th.addEventListener('click', function() {
+            var rows = Array.from(tbody.querySelectorAll('tr'));
 
-        var a = document.createElement('a');
-        a.href = item.dataset.tweetUrl;
-        a.textContent = item.dataset.tweetDate;
-        bq.appendChild(a);
+            rows.sort(function(a, b) {
+                var aVal = a.children[actualIndex].dataset.sortValue || '';
+                var bVal = b.children[actualIndex].dataset.sortValue || '';
 
-        item.innerHTML = '';
-        item.appendChild(bq);
-
-        if (typeof twttr !== 'undefined' && twttr.widgets) {
-            twttr.widgets.load(item);
-        }
-    }
-
-    var observer = new IntersectionObserver(function(entries) {
-        entries.forEach(function(entry) {
-            if (entry.isIntersecting) {
-                renderTweet(entry.target);
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { rootMargin: '200px' });
-
-    // 初期表示分（非hiddenのみ）をobserve
-    document.querySelectorAll('.campaign-tweet-item').forEach(function(item) {
-        if (item.classList.contains('campaign-hidden')) return;
-        observer.observe(item);
-    });
-
-    // 「もっと見る」ボタン：表示してからobserve
-    document.querySelectorAll('.campaign-more-btn').forEach(function(btn) {
-        btn.addEventListener('click', function() {
-            var section = document.getElementById(btn.dataset.target);
-            section.querySelectorAll('.campaign-hidden').forEach(function(el) {
-                el.classList.remove('campaign-hidden');
-                if (!el.dataset.rendered) observer.observe(el);
+                if (sortType === 'number') {
+                    return ascending
+                        ? (parseFloat(aVal) || 0) - (parseFloat(bVal) || 0)
+                        : (parseFloat(bVal) || 0) - (parseFloat(aVal) || 0);
+                }
+                if (sortType === 'date') {
+                    if (aVal === '' && bVal === '') return 0;
+                    if (aVal === '') return 1;
+                    if (bVal === '') return -1;
+                    return ascending ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
+                }
+                return ascending ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
             });
-            btn.remove();
+
+            rows.forEach(function(row) { tbody.appendChild(row); });
+
+            // ソート方向アイコン更新
+            headers.forEach(function(h) { h.querySelector('.sort-icon').textContent = '⇅'; });
+            th.querySelector('.sort-icon').textContent = ascending ? '↑' : '↓';
+            ascending = !ascending;
         });
     });
 })();
 </script>
+<?php endif; ?>
 
 <?php require __DIR__ . '/templates/footer.php'; ?>
