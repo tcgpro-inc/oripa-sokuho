@@ -48,7 +48,7 @@ class XSearch
 
         $bearer = $this->getBearerToken();
 
-        $query = "{$keyword} (プレゼントキャンペーン OR プレゼント企画 OR プレキャン OR \"プレゼント🎁\" OR \"BOXプレゼント\" OR \"BOXをプレゼント\" OR \"名様にプレゼント\") -is:retweet";
+        $query = "{$keyword} (プレゼントキャンペーン OR プレゼント企画 OR プレキャン OR \"プレゼント🎁\" OR \"BOXプレゼント\" OR \"BOXをプレゼント\" OR \"名様にプレゼント\") -is:retweet -当選 -届きました -届いた -ありがとうございます";
         $startTime = date('Y-m-d\TH:i:s\Z', strtotime('-7 days'));
 
         $params = http_build_query([
