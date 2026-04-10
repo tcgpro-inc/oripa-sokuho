@@ -878,6 +878,32 @@ a:hover { text-decoration: underline; }
     .breadcrumb {
         overflow-wrap: anywhere;
     }
+
+    /* 9. Markdownコードブロック（<pre><code>）*/
+    .article-detail .content pre {
+        overflow-x: auto;
+        max-width: 100%;
+        -webkit-overflow-scrolling: touch;
+        white-space: pre;
+    }
+    .article-detail .content :not(pre) > code {
+        word-break: break-all;
+        white-space: pre-wrap;
+    }
+
+    /* 10. カテゴリタブ — SP幅で横スクロール許容 */
+    .category-tabs {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .category-tabs-inner {
+        min-width: max-content;
+    }
+
+    /* 11. ページ全体の横はみ出し防止（最終安全網） */
+    html, body {
+        overflow-x: hidden;
+    }
 }
 
 /* ━━━━━━━━━━━━━━━━━━━━
