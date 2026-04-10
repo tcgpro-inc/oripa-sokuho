@@ -8,7 +8,7 @@ company: "コナミデジタルエンタテインメント"
 slug: "yugioh-limit-regulation-april-2026"
 published_at: "2026-04-10T10:00:00+09:00"
 hot: false
-thumbnail_url: ""
+thumbnail_url: "https://img.yugioh-card.com/japan/images/og-image.jpg"
 ---
 
 2026年4月1日から適用の遊戯王OCGリミットレギュレーションが公開。「分かつ烙印」の禁止指定をはじめ、手札誘発・メタカードの規制が中心の中規模改訂となった。

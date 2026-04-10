@@ -8,7 +8,7 @@ company: ""
 slug: "yugioh-april-2026-limit-new-meta"
 published_at: "2026-04-10T10:00:00+09:00"
 hot: true
-thumbnail_url: ""
+thumbnail_url: "https://img.yugioh-card.com/japan/images/og-image.jpg"
 ---
 
 2026年4月1日適用のリミットレギュレーション改定によって、遊戯王OCGの環境が大きく動いている。「分かつ烙印」禁止・「ドロール＆ロックバード」制限など規制が多数入り、かつての強豪テーマが再注目を集めている。

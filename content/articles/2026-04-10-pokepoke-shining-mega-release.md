@@ -8,7 +8,7 @@ company: "株式会社ポケモン"
 slug: "pokepoke-shining-mega-release"
 published_at: "2026-04-10T10:00:00+09:00"
 hot: false
-thumbnail_url: ""
+thumbnail_url: "https://play-lh.googleusercontent.com/qdEdyVc19jfittS0bnDUnXLRM7jOPZzfHXEYoChPWOtzMrtwU6t3ZVm_FQ7wbeDYFlqLBuWCDK0Q6c1nEwYKTA=w600-h300-pc0xffffff-pd"
 ---
 
 ポケモンカードゲームポケット（ポケポケ）に2026年3月26日（木）、新テーマ拡張パック「シャイニングメガ」が登場。ゲーム初となる「色違いのメガシンカポケモン」が実装され、プレイヤーの間で大きな話題を呼んでいる。
