@@ -818,6 +818,66 @@ a:hover { text-decoration: underline; }
         font-size: 13px;
         padding: 6px 8px;
     }
+
+    /* SP横スクロール対策 */
+    /* 1. AAブロック — 要素内横スクロール */
+    .editor-aa,
+    .aa-chara {
+        overflow-x: auto;
+        max-width: 100%;
+    }
+
+    /* 2. Markdownテーブル */
+    .article-detail .content table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        border-collapse: collapse;
+    }
+    .article-detail .content table th,
+    .article-detail .content table td {
+        padding: 4px 8px;
+        border: 1px solid #ccc;
+        white-space: nowrap;
+    }
+
+    /* 3. 本文中の画像 */
+    .article-detail .content img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* 4. Twitter埋め込み */
+    .article-detail .content blockquote.twitter-tweet,
+    .article-detail .content iframe {
+        max-width: 100% !important;
+    }
+
+    /* 5. 長URL / 長英数の折り返し */
+    .article-detail .content,
+    .article-detail .source-link {
+        overflow-wrap: anywhere;
+    }
+
+    /* 6. .article-detail-meta 折り返し */
+    .article-detail-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px 10px;
+    }
+
+    /* 7. .comment-meta 折り返し */
+    .comment-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px 6px;
+    }
+
+    /* 8. パンくず overflow-wrap */
+    .breadcrumb {
+        overflow-wrap: anywhere;
+    }
 }
 
 /* ━━━━━━━━━━━━━━━━━━━━
