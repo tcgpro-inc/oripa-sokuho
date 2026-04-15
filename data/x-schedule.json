@@ -17,7 +17,9 @@
             "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/purotan-collab-oripa-sold-out/",
             "thumbnail_url": "https://prcdn.freetls.fastly.net/release_image/171622/15/171622-15-6d5f50b599fd041413345be765ddfc06-1280x840.png",
             "scheduled_at": "2026-04-06T13:00:00+09:00",
-            "status": "pending"
+            "status": "error",
+            "error": "X API エラー (HTTP 403): {\"title\":\"Forbidden\",\"detail\":\"Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.\",\"type\":\"about:blank\",\"status\":403}",
+            "error_at": "2026-04-13T23:00:12+09:00"
         },
         {
             "slug": "victre-1st-anniversary",
@@ -25,7 +27,9 @@
             "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/victre-1st-anniversary/",
             "thumbnail_url": "https://prcdn.freetls.fastly.net/release_image/113626/272/113626-272-c298844e7766db8358a40396bab36954-800x418.jpg",
             "scheduled_at": "2026-04-06T16:00:00+09:00",
-            "status": "pending"
+            "status": "error",
+            "error": "X API エラー (HTTP 403): {\"title\":\"Forbidden\",\"detail\":\"Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.\",\"type\":\"about:blank\",\"status\":403}",
+            "error_at": "2026-04-14T00:00:17+09:00"
         },
         {
             "slug": "nihon-torekka-center-spring-campaign",
@@ -33,7 +37,9 @@
             "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/nihon-torekka-center-spring-campaign/",
             "thumbnail_url": "https://prcdn.freetls.fastly.net/release_image/171622/20/171622-20-6ddb130717d205cd7e6aff809fe2a33e-2400x1850.jpg",
             "scheduled_at": "2026-04-06T19:00:00+09:00",
-            "status": "pending"
+            "status": "error",
+            "error": "X API エラー (HTTP 403): {\"title\":\"Forbidden\",\"detail\":\"Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.\",\"type\":\"about:blank\",\"status\":403}",
+            "error_at": "2026-04-14T01:00:15+09:00"
         },
         {
             "slug": "carderia-ikebukuro-anniversary-oripa",
@@ -41,7 +47,9 @@
             "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/carderia-ikebukuro-anniversary-oripa/",
             "thumbnail_url": "https://prcdn.freetls.fastly.net/release_image/21743/228/21743-228-c8ef9530d7f45afce116d506de2d1ca7-800x419.jpg",
             "scheduled_at": "2026-04-06T22:00:00+09:00",
-            "status": "pending"
+            "status": "error",
+            "error": "X API エラー (HTTP 403): {\"title\":\"Forbidden\",\"detail\":\"Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.\",\"type\":\"about:blank\",\"status\":403}",
+            "error_at": "2026-04-14T02:00:15+09:00"
         },
         {
             "slug": "iristorekka-3rd-anniversary",
@@ -49,7 +57,9 @@
             "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/iristorekka-3rd-anniversary/",
             "thumbnail_url": "https://prcdn.freetls.fastly.net/release_image/21743/233/21743-233-52dcfccac1ab4bfc563e88026e98e8fd-900x502.jpg",
             "scheduled_at": "2026-04-07T01:00:00+09:00",
-            "status": "pending"
+            "status": "error",
+            "error": "X API エラー (HTTP 403): {\"title\":\"Forbidden\",\"detail\":\"Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.\",\"type\":\"about:blank\",\"status\":403}",
+            "error_at": "2026-04-14T03:00:13+09:00"
         },
         {
             "slug": "tcg-purchase-survey",
@@ -57,7 +67,9 @@
             "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/tcg-purchase-survey/",
             "thumbnail_url": "https://prcdn.freetls.fastly.net/release_image/179168/1/179168-1-925c42ef410a6bf628234d4f045a0872-722x374.png",
             "scheduled_at": "2026-04-07T22:00:00+09:00",
-            "status": "pending"
+            "status": "error",
+            "error": "X API エラー (HTTP 403): {\"title\":\"Forbidden\",\"detail\":\"Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.\",\"type\":\"about:blank\",\"status\":403}",
+            "error_at": "2026-04-14T04:00:26+09:00"
         },
         {
             "slug": "dopa-oripa-youtube-600k",
@@ -65,7 +77,9 @@
             "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/dopa-oripa-youtube-600k/",
             "thumbnail_url": "",
             "scheduled_at": "2026-04-08T01:00:00+09:00",
-            "status": "pending"
+            "status": "error",
+            "error": "X API エラー (HTTP 403): {\"title\":\"Forbidden\",\"detail\":\"Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.\",\"type\":\"about:blank\",\"status\":403}",
+            "error_at": "2026-04-14T05:00:14+09:00"
         },
         {
             "slug": "oripa-gambling-law-risk",
@@ -73,7 +87,9 @@
             "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/oripa-gambling-law-risk/",
             "thumbnail_url": "",
             "scheduled_at": "2026-04-08T22:00:00+09:00",
-            "status": "pending"
+            "status": "error",
+            "error": "X API エラー (HTTP 403): {\"title\":\"Forbidden\",\"detail\":\"Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.\",\"type\":\"about:blank\",\"status\":403}",
+            "error_at": "2026-04-14T06:00:13+09:00"
         },
         {
             "slug": "dopa-1million-users-rebrand",
@@ -81,7 +97,9 @@
             "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/dopa-1million-users-rebrand/",
             "thumbnail_url": "https://prcdn.freetls.fastly.net/release_image/168482/26/168482-26-25e3f3db23671c9f0745c5f7913609ef-1920x1280.jpg",
             "scheduled_at": "2026-04-09T01:00:00+09:00",
-            "status": "pending"
+            "status": "error",
+            "error": "X API エラー (HTTP 403): {\"title\":\"Forbidden\",\"detail\":\"Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.\",\"type\":\"about:blank\",\"status\":403}",
+            "error_at": "2026-04-14T07:00:18+09:00"
         },
         {
             "slug": "fukufuku-reshrink-suspicion",
@@ -89,7 +107,9 @@
             "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/fukufuku-reshrink-suspicion/",
             "thumbnail_url": "https://file003.shop-pro.jp/PA01443/722/images/logo_yoko.png",
             "scheduled_at": "2026-04-09T22:00:00+09:00",
-            "status": "pending"
+            "status": "error",
+            "error": "X API エラー (HTTP 403): {\"title\":\"Forbidden\",\"detail\":\"Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.\",\"type\":\"about:blank\",\"status\":403}",
+            "error_at": "2026-04-14T08:00:16+09:00"
         },
         {
             "slug": "clove-oripa-430k-loss",
@@ -97,7 +117,9 @@
             "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/clove-oripa-430k-loss/",
             "thumbnail_url": "https://prcdn.freetls.fastly.net/release_image/59394/7/59394-7-defe0b851e6d400205f42c055fc7b98d-1125x1071.jpg",
             "scheduled_at": "2026-04-10T01:00:00+09:00",
-            "status": "pending"
+            "status": "error",
+            "error": "X API エラー (HTTP 403): {\"title\":\"Forbidden\",\"detail\":\"Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.\",\"type\":\"about:blank\",\"status\":403}",
+            "error_at": "2026-04-14T09:00:16+09:00"
         },
         {
             "slug": "oripaone-identity-verification-scandal",
@@ -105,7 +127,9 @@
             "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/oripaone-identity-verification-scandal/",
             "thumbnail_url": "https://prcdn.freetls.fastly.net/release_image/166478/1/166478-1-5ef04832365470e76466e6bfbbcacd78-800x400.png",
             "scheduled_at": "2026-04-10T22:00:00+09:00",
-            "status": "pending"
+            "status": "error",
+            "error": "X API エラー (HTTP 403): {\"title\":\"Forbidden\",\"detail\":\"Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.\",\"type\":\"about:blank\",\"status\":403}",
+            "error_at": "2026-04-14T10:00:12+09:00"
         },
         {
             "slug": "dopa-jackpot-ranking-system",
@@ -113,7 +137,9 @@
             "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/dopa-jackpot-ranking-system/",
             "thumbnail_url": "https://prcdn.freetls.fastly.net/release_image/168482/26/168482-26-8149dadea7f2bb5d2a0b9a157d147254-1080x1080.jpg",
             "scheduled_at": "2026-04-11T01:00:00+09:00",
-            "status": "pending"
+            "status": "error",
+            "error": "X API エラー (HTTP 403): {\"title\":\"Forbidden\",\"detail\":\"Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.\",\"type\":\"about:blank\",\"status\":403}",
+            "error_at": "2026-04-14T11:00:13+09:00"
         },
         {
             "slug": "dopa-diamond-rank-monthly-100k",
@@ -121,7 +147,9 @@
             "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/dopa-diamond-rank-monthly-100k/",
             "thumbnail_url": "https://prcdn.freetls.fastly.net/release_image/168482/26/168482-26-9c24930bb184009e188e8d1bec171f40-2201x601.png",
             "scheduled_at": "2026-04-11T22:00:00+09:00",
-            "status": "pending"
+            "status": "error",
+            "error": "X API エラー (HTTP 403): {\"title\":\"Forbidden\",\"detail\":\"Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.\",\"type\":\"about:blank\",\"status\":403}",
+            "error_at": "2026-04-14T12:00:12+09:00"
         },
         {
             "slug": "megadreamex-reseal-factory-china",
@@ -129,7 +157,9 @@
             "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/megadreamex-reseal-factory-china/",
             "thumbnail_url": "https://www.pokemon-card.com/ex/m2a/assets/images/hero-h1.png",
             "scheduled_at": "2026-04-12T01:00:00+09:00",
-            "status": "pending"
+            "status": "error",
+            "error": "X API エラー (HTTP 403): {\"title\":\"Forbidden\",\"detail\":\"Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.\",\"type\":\"about:blank\",\"status\":403}",
+            "error_at": "2026-04-14T13:00:12+09:00"
         },
         {
             "slug": "psa-japan-cash-submission-warning",
@@ -137,7 +167,9 @@
             "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/psa-japan-cash-submission-warning/",
             "thumbnail_url": "https://prcdn.freetls.fastly.net/release_image/43703/118/43703-118-1f2ef77a2f7a34613c034a0d65a72620-2400x1260.png",
             "scheduled_at": "2026-04-12T22:00:00+09:00",
-            "status": "pending"
+            "status": "error",
+            "error": "X API エラー (HTTP 403): {\"title\":\"Forbidden\",\"detail\":\"Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.\",\"type\":\"about:blank\",\"status\":403}",
+            "error_at": "2026-04-14T14:00:14+09:00"
         },
         {
             "slug": "karakuri-oripa-70man-loss",
@@ -145,7 +177,9 @@
             "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/karakuri-oripa-70man-loss/",
             "thumbnail_url": "https://fzpzduyetponyeabtonl.supabase.co/storage/v1/object/public/images/headerImage_1761614134938.jpeg",
             "scheduled_at": "2026-04-13T22:00:00+09:00",
-            "status": "pending"
+            "status": "error",
+            "error": "X API エラー (HTTP 403): {\"title\":\"Forbidden\",\"detail\":\"Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.\",\"type\":\"about:blank\",\"status\":403}",
+            "error_at": "2026-04-13T22:00:07+09:00"
         },
         {
             "slug": "kankoucho-auction-pokeka-bankrupt-reseller",
