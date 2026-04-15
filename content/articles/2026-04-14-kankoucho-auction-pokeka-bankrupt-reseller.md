@@ -8,7 +8,7 @@ company: "KSI官公庁オークション"
 slug: "kankoucho-auction-pokeka-bankrupt-reseller"
 published_at: "2026-04-14T20:00:00+09:00"
 hot: true
-thumbnail_url: ""
+thumbnail_url: "https://www.pokemon-card.com/assets/images/og.png"
 ---
 
 2026年4月14日、KSI官公庁オークションの4月分でポケモンカードの未開封パックが大量出品されていることが話題となっている。「漆黒のガイスト」「スカーレットex」などのパックが200〜300円の開始価格で並んでおり、「転売ヤーが破産して差し押さえられた物では？」とSNSで憶測が広がっている。
