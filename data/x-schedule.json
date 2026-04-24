@@ -258,7 +258,10 @@
             "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/pikachu-illustrator-25oku-us-bubble/",
             "thumbnail_url": "https://www.pokemon-card.com/assets/images/og.png",
             "scheduled_at": "2026-04-24T15:00:00+09:00",
-            "status": "pending"
+            "status": "posted",
+            "tweet_id": "2047556166100934672",
+            "reply_id": "2047556167820525782",
+            "posted_at": "2026-04-24T15:00:04+09:00"
         },
         {
             "slug": "toreca-chase-megarizadon-price-mistake",
@@ -266,7 +269,10 @@
             "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/toreca-chase-megarizadon-price-mistake/",
             "thumbnail_url": "https://pbs.twimg.com/media/HGQ0agHbUAAz02V.jpg",
             "scheduled_at": "2026-04-24T20:00:00+09:00",
-            "status": "pending"
+            "status": "posted",
+            "tweet_id": "2047631661207286086",
+            "reply_id": "2047631663056998747",
+            "posted_at": "2026-04-24T20:00:04+09:00"
         },
         {
             "slug": "grim-shop-fullmira-missing-suspicion",
@@ -274,6 +280,14 @@
             "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/grim-shop-fullmira-missing-suspicion/",
             "thumbnail_url": "https://pbs.twimg.com/media/HFl_4M4akAIdKbX.png",
             "scheduled_at": "2026-04-25T12:00:00+09:00",
+            "status": "pending"
+        },
+        {
+            "slug": "yuusha-toro-oripa-debt-50million-cant-stop",
+            "text": "【悲報】オリパ借金5000万円の勇者トロさん、深夜に限界告白\n\n「やめたいのにやめられない」「40万溶かして寝た翌朝、起きたらまずオリパサイトのチェック」「入金する金もないのにやりたくなってる」\n\nこれもうネタやなくてガチで本人しんどそうやんけ…\n\n#オリパ #ポケカ",
+            "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/yuusha-toro-oripa-debt-50million-cant-stop/",
+            "thumbnail_url": "https://i.ytimg.com/vi/HMZGRP77FWU/maxresdefault.jpg",
+            "scheduled_at": "2026-04-25T17:00:00+09:00",
             "status": "pending"
         }
     ]
