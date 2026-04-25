@@ -107,6 +107,9 @@ a:hover { text-decoration: underline; }
     gap: 16px;
     padding: 0 16px;
 }
+.container > .breadcrumb {
+    grid-column: 1 / -1;
+}
 
 /* --- Headline Cards --- */
 .headline-section {
