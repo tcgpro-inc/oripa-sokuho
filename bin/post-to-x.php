@@ -143,8 +143,8 @@ $articleUrl = "https://oripanews.com/article/{$slug}/";
 
 $categoryTag = match ($category) {
     'pokeka' => '#ポケカ',
-    'yugioh' => '#遊戯王',
-    'onepiece' => '#ワンピース',
+    'flame' => '#オリパ炎上',
+    'free' => '#無料オリパ',
     default => '#トレカ',
 };
 

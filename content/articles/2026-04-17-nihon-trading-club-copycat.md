@@ -1,7 +1,7 @@
 ---
 title: "【炎上】老舗オリパ「日本トレカセンター」の模倣サイト「日本トレーディングクラブ」が出現、同業RAM oripa運営者が注意喚起"
 tag: "炎上"
-category: "other"
+category: "flame"
 source_url: "https://x.com/7hogeeeeta7/status/2045007022228410629"
 source_name: "ホゲくん（RAM oripa中の人）X投稿"
 company: "（注意喚起）"

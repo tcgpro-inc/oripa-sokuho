@@ -1,7 +1,7 @@
 ---
 title: "【悲報】DOPA!さん、ダイヤモンドランク昇格に「月10万円課金」が必要になるｗｗｗ"
 tag: "悲報"
-category: "other"
+category: "flame"
 source_url: "https://prtimes.jp/main/html/rd/p/000000026.000168482.html"
 source_name: "PR TIMES"
 slug: "dopa-diamond-rank-monthly-100k"

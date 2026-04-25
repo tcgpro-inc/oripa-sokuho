@@ -92,9 +92,10 @@ a:hover { text-decoration: underline; }
     color: #fff;
 }
 .tab-pokeka { border-top: 3px solid #f7c948; }
-.tab-yugioh { border-top: 3px solid #6a4cbc; }
-.tab-onepiece { border-top: 3px solid #e04040; }
-.tab-other { border-top: 3px solid #4a9; }
+.tab-review { border-top: 3px solid #6a4cbc; }
+.tab-guide { border-top: 3px solid #4a9; }
+.tab-free { border-top: 3px solid #e67e22; }
+.tab-flame { border-top: 3px solid #e04040; }
 .tab-ranking { border-top: 3px solid #e67e22; }
 
 /* --- Main Layout --- */

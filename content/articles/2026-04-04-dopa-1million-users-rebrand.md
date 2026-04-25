@@ -1,7 +1,7 @@
 ---
 title: "【速報】DOPAオリパさん、累計100万ユーザー突破でリブランディングｷﾀ━━━━(ﾟ∀ﾟ)━━━━!! 新キャラ「ニコちゃん」爆誕"
 tag: "速報"
-category: "other"
+category: "guide"
 source_url: "https://prtimes.jp/main/html/rd/p/000000026.000168482.html"
 source_name: "PR TIMES"
 slug: "dopa-1million-users-rebrand"

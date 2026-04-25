@@ -1,7 +1,7 @@
 ---
 title: "【炎上】オリパワンさん、高額当選したら「家族全員の本人確認書類出せ」と要求→送ったら利用制限かけられる闇バイトみたいな手口で大炎上"
 tag: "炎上"
-category: "other"
+category: "flame"
 source_url: "https://x.com/airconkansai"
 source_name: "X（旧Twitter）"
 slug: "oripaone-identity-verification-scandal"

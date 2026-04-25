@@ -79,13 +79,14 @@
         $currentCategory = $currentCategory ?? '';
         $tabClasses = [
             'pokeka' => 'tab-pokeka',
-            'yugioh' => 'tab-yugioh',
-            'onepiece' => 'tab-onepiece',
-            'other' => 'tab-other',
+            'review' => 'tab-review',
+            'guide' => 'tab-guide',
+            'free' => 'tab-free',
+            'flame' => 'tab-flame',
         ];
         $tabs = ['' => ['label' => '総合', 'class' => '']];
         foreach (Content::CATEGORY_NAMES as $catKey => $label) {
-            $tabs[$catKey] = ['label' => $catKey === 'onepiece' ? 'ワンピ' : $label, 'class' => $tabClasses[$catKey] ?? ''];
+            $tabs[$catKey] = ['label' => $label, 'class' => $tabClasses[$catKey] ?? ''];
         }
         foreach ($tabs as $tabSlug => $tab): ?>
             <a href="<?= $tabSlug ? "/?category=$tabSlug" : '/' ?>"

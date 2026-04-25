@@ -1,7 +1,7 @@
 ---
 title: "【朗報】DOPAオリパさん、YouTube登録者60万人突破で記念キャンペーンｷﾀ━━━━(ﾟ∀ﾟ)━━━━!!"
 tag: "速報"
-category: "other"
+category: "guide"
 source_url: "https://news.google.com/rss/articles/CBMiakFVX3lxTE5SQ2lSNWlsYlV3RjFNUzVNdzhiSTQzbk1KSDBkcE1rN1pybVo0Nm9PdExITUNiUEtjMjlRMWU3bG82YVR6TjFMa2k5amVncUotd0tsZnVVZVdxdlBndUxpNFRfaXFLZ2NQUQ?oc=5"
 source_name: "PR TIMES"
 slug: "dopa-oripa-youtube-600k"

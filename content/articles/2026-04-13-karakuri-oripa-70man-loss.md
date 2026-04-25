@@ -1,7 +1,7 @@
 ---
 title: "【悲報】KARAKURIオリパで319口引いたら70万溶けたｗｗｗ 限定1000口買って当選0とかさすがにひどすぎるやろ…"
 tag: "悲報"
-category: "other"
+category: "flame"
 source_url: "https://x.com/nextim_/status/2043500722793447443"
 source_name: "X（旧Twitter）"
 company: "KARAKURIオリパ"

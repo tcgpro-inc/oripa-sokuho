@@ -1,7 +1,7 @@
 ---
 title: "【炎上】秋葉原「The TCG Shop」開店3ヶ月で営業停止…買取金520万円未払い＋カード返却困難で被害総額2億円規模か"
 tag: "炎上"
-category: "other"
+category: "flame"
 source_url: "https://x.com/TheTCGShopAKIBA/status/2044836882891382877"
 source_name: "The TCG Shop AKIHABARA本店（X公式）"
 company: "The TCG Shop AKIHABARA本店"

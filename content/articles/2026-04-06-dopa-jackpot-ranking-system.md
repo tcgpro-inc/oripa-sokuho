@@ -1,7 +1,7 @@
 ---
 title: "【速報】DOPA!さん、新機能「ジャックポット」と「ランキング」実装でもうソシャゲと化すｗｗｗ"
 tag: "速報"
-category: "other"
+category: "guide"
 source_url: "https://prtimes.jp/main/html/rd/p/000000026.000168482.html"
 source_name: "PR TIMES"
 slug: "dopa-jackpot-ranking-system"

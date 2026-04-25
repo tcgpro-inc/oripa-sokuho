@@ -1,7 +1,7 @@
 ---
 title: "【炎上】オリパの「還元率110%」とかいう謳い文句、弁護士「普通に賭博罪アウトの可能性あるぞ」"
 tag: "炎上"
-category: "other"
+category: "flame"
 source_url: "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA4a0lJb21aU2RUOHRYN090a0pqVVBaWUNSbDU0OVQ2b0R4TzRvRXhFbEpzNzBqUV9aLXZteW9XSC1LZGw4OTR0czJHVjh0Q1hjclNuRWFjR3FFVUVVcGhz?oc=5"
 source_name: "ライブドアニュース"
 slug: "oripa-gambling-law-risk"

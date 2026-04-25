@@ -145,8 +145,8 @@ YAML;
             $articleUrl = "https://oripanews.com/article/{$slug}/";
             $categoryTag = match ($category) {
                 'pokeka' => '#ポケカ',
-                'yugioh' => '#遊戯王',
-                'onepiece' => '#ワンピース',
+                'flame' => '#オリパ炎上',
+                'free' => '#無料オリパ',
                 default => '#トレカ',
             };
 
@@ -230,11 +230,14 @@ function detectCategory(string $title): string
     if (mb_stripos($title, 'ポケカ') !== false || mb_stripos($title, 'ポケモンカード') !== false) {
         return 'pokeka';
     }
-    if (mb_stripos($title, '遊戯王') !== false) {
-        return 'yugioh';
+    if (mb_stripos($title, '炎上') !== false || mb_stripos($title, '被害') !== false || mb_stripos($title, '逮捕') !== false) {
+        return 'flame';
     }
-    if (mb_stripos($title, 'ワンピース') !== false || mb_stripos($title, 'ワンピカード') !== false) {
-        return 'onepiece';
+    if (mb_stripos($title, '無料') !== false || mb_stripos($title, '0pt') !== false || mb_stripos($title, 'ゼロpt') !== false) {
+        return 'free';
     }
-    return 'other';
+    if (mb_stripos($title, '口コミ') !== false || mb_stripos($title, '評判') !== false || mb_stripos($title, '体験') !== false) {
+        return 'review';
+    }
+    return 'guide';
 }

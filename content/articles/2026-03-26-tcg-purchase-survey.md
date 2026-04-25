@@ -1,7 +1,7 @@
 ---
 title: "【まとめ】TCG民200人調査、週1で買ってるやつが最多で草ｗｗｗおまえら買いすぎやろ"
 tag: "まとめ"
-category: "other"
+category: "review"
 source_url: "https://prtimes.jp/main/html/rd/p/000000001.000179168.html"
 source_name: "PRTIMES"
 company: "アソビビジョン株式会社（福福トレカ）"

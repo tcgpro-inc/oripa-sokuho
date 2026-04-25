@@ -8,12 +8,13 @@ class Content
 {
     public const CATEGORY_NAMES = [
         'pokeka' => 'ポケカ',
-        'yugioh' => '遊戯王',
-        'onepiece' => 'ワンピース',
-        'other' => 'その他',
+        'review' => '口コミ',
+        'guide' => '優良',
+        'free' => '無料',
+        'flame' => '炎上',
     ];
 
-    public const CATEGORY_SLUGS = ['pokeka', 'yugioh', 'onepiece', 'other'];
+    public const CATEGORY_SLUGS = ['pokeka', 'review', 'guide', 'free', 'flame'];
 
     private string $articlesDir;
     private Parsedown $parsedown;

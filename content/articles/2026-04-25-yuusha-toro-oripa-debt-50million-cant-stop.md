@@ -1,7 +1,7 @@
 ---
 title: "【悲報】オリパ借金5000万円の勇者トロさん、深夜に限界告白「やめたいのにやめられない…40万溶かして寝た翌朝、まずやるのは熱いガチャ探し」"
 tag: "悲報"
-category: "other"
+category: "flame"
 source_url: "https://x.com/toro_YouTube/status/2047575337849262313"
 source_name: "X(@toro_YouTube)"
 company: "勇者トロ"

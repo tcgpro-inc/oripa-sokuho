@@ -1,7 +1,7 @@
 ---
 title: "【速報】アイリストレカ3周年、0ptオリパ毎日配布＋周年限定オリパの6大企画きたああ"
 tag: "速報"
-category: "other"
+category: "free"
 source_url: "https://prtimes.jp/main/html/rd/p/000000233.000021743.html"
 source_name: "PRTIMES"
 company: "アクセルマーク株式会社（株式会社crafty）"

@@ -1,7 +1,7 @@
 ---
 title: "【速報】PSA Japan「鑑定品に現金を同封するのは法律違反やで」←謎行動する勢が増えすぎて公式がお知らせ出す事態になってて草ｗｗｗ"
 tag: "速報"
-category: "other"
+category: "guide"
 source_url: "https://x.com/PSAcardJapan/status/2042513000352092596"
 source_name: "X（旧Twitter）"
 company: "PSA Japan"
