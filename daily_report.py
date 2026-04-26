@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""日次レポート統合スクリプト: スレッド形式でGA4+GSCをSlack投稿"""
+"""日次レポート統合スクリプト: GA4+GSCをSlackチャンネルに直接投稿"""
 
 import os
 import sys
@@ -39,21 +39,19 @@ def get_slack_client():
     return WebClient(token=SLACK_BOT_TOKEN)
 
 
-def post_thread_parent(client, today):
-    """親メッセージを投稿し thread_ts を返す"""
+def post_header(client, today):
+    """日付ヘッダーをチャンネルに投稿する"""
     title = f"オリパ速報｜{today.strftime('%m/%d')}"
-    resp = client.chat_postMessage(channel=SLACK_CHANNEL, text=title)
-    return resp["ts"]
+    client.chat_postMessage(channel=SLACK_CHANNEL, text=title)
 
 
-def reply_with_image(client, thread_ts, image_path, filename, comment):
-    """スレッドに画像付きリプライを投稿する"""
+def post_image(client, image_path, filename, comment):
+    """チャンネルに画像付きメッセージを投稿する"""
     client.files_upload_v2(
         channel=SLACK_CHANNEL,
         file=image_path,
         filename=filename,
         initial_comment=comment,
-        thread_ts=thread_ts,
     )
 
 
@@ -295,20 +293,20 @@ def main():
     today = datetime.now()
     slack = get_slack_client()
 
-    # 1) 親メッセージ
-    thread_ts = post_thread_parent(slack, today)
-    print(f"スレッド作成: オリパ速報｜{today.strftime('%m/%d')} (ts={thread_ts})")
+    # 1) 日付ヘッダー
+    post_header(slack, today)
+    print(f"ヘッダー投稿: オリパ速報｜{today.strftime('%m/%d')}")
 
-    # 2) GA4 レポート → スレッドにリプライ
+    # 2) GA4 レポート → チャンネルに直接投稿
     ga4_image, ga4_comment = run_ga4()
     if ga4_image:
-        reply_with_image(slack, thread_ts, ga4_image, "oripa_ga4_daily_report.png", ga4_comment)
+        post_image(slack, ga4_image, "oripa_ga4_daily_report.png", ga4_comment)
         print("[GA4] Slack投稿完了")
 
-    # 3) GSC レポート → スレッドにリプライ
+    # 3) GSC レポート → チャンネルに直接投稿
     gsc_image, gsc_comment = run_gsc()
     if gsc_image:
-        reply_with_image(slack, thread_ts, gsc_image, "oripa_gsc_daily_report.png", gsc_comment)
+        post_image(slack, gsc_image, "oripa_gsc_daily_report.png", gsc_comment)
         print("[GSC] Slack投稿完了")
 
     print("完了")
