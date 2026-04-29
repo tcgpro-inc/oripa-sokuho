@@ -34,6 +34,33 @@ class Content
     }
 
     /**
+     * 外部サムネイル画像URLを images.weserv.nl 経由でリサイズ・WebP変換して配信する。
+     * 元の952KB PNGが27KB WebPに圧縮される実績あり（97%削減・1年キャッシュ）。
+     * OGP画像（社外クローラ用）には使わず、ブラウザ表示用<img>のみで使うこと。
+     */
+    public static function thumbnailProxy(string $url, int $width = 700, int $quality = 82): string
+    {
+        if ($url === '') {
+            return '';
+        }
+        // data: URI / 相対URL / 既にプロキシ済み はそのまま返す
+        if (str_starts_with($url, 'data:')) {
+            return $url;
+        }
+        if (!preg_match('#^https?://#i', $url)) {
+            return $url;
+        }
+        if (str_contains($url, 'images.weserv.nl')) {
+            return $url;
+        }
+        // weserv.nl は url= にプロトコル除いたホスト+パスを渡す仕様
+        $stripped = preg_replace('#^https?://#i', '', $url);
+        return 'https://images.weserv.nl/?url=' . rawurlencode($stripped)
+            . '&w=' . $width
+            . '&output=webp&q=' . $quality;
+    }
+
+    /**
      * 全記事を取得（公開日の降順）
      * @return array<int, array{slug: string, meta: array, html: string}>
      */

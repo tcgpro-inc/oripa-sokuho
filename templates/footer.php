@@ -12,27 +12,41 @@
     </div>
 </div>
 
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <script>
-// blockquote.twitter-tweet が自動レンダリングされない場合のフォールバック
-document.addEventListener('DOMContentLoaded', function() {
-    function renderTweets() {
-        if (typeof twttr === 'undefined' || !twttr.widgets) {
-            setTimeout(renderTweets, 500);
-            return;
-        }
-        document.querySelectorAll('blockquote.twitter-tweet').forEach(function(bq) {
-            var link = bq.querySelector('a[href*="/status/"]');
-            if (!link) return;
-            var match = link.href.match(/\/status\/(\d+)/);
-            if (!match) return;
-            var container = document.createElement('div');
-            bq.parentNode.replaceChild(container, bq);
-            twttr.widgets.createTweet(match[1], container);
-        });
+// X(Twitter) widget を lazy-load: tweet要素が画面に近づいたときだけ widgets.js を読み込む。
+// embedしない記事ページや tweet が下部にしかない場合に 270KB+ の初期ロードを節約。
+(function () {
+    var tweets = document.querySelectorAll('blockquote.twitter-tweet');
+    if (!tweets.length) return;
+
+    var loaded = false;
+    function loadWidgets() {
+        if (loaded) return;
+        loaded = true;
+        var s = document.createElement('script');
+        s.src = 'https://platform.twitter.com/widgets.js';
+        s.async = true;
+        s.charset = 'utf-8';
+        document.body.appendChild(s);
+        // widgets.js が読み込まれると自動で .twitter-tweet を iframe にレンダリングする。
     }
-    setTimeout(renderTweets, 1000);
-});
+
+    if ('IntersectionObserver' in window) {
+        var observer = new IntersectionObserver(function (entries) {
+            for (var i = 0; i < entries.length; i++) {
+                if (entries[i].isIntersecting) {
+                    loadWidgets();
+                    observer.disconnect();
+                    return;
+                }
+            }
+        }, { rootMargin: '300px' });
+        tweets.forEach(function (t) { observer.observe(t); });
+    } else {
+        // 旧ブラウザは即時ロード
+        loadWidgets();
+    }
+})();
 </script>
 </body>
 </html>

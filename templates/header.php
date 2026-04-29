@@ -35,6 +35,9 @@
     <meta name="twitter:image" content="<?= htmlspecialchars($ogImage) ?>">
 <?php endif; ?>
 
+<?php if (!empty($preloadImage)): ?>
+    <link rel="preload" as="image" href="<?= htmlspecialchars($preloadImage) ?>" fetchpriority="high" type="image/webp">
+<?php endif; ?>
     <link rel="stylesheet" href="/css/style.css">
 
     <!-- Google tag (gtag.js) -->

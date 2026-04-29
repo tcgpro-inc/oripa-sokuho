@@ -109,7 +109,7 @@ require __DIR__ . '/templates/header.php';
             <a href="/article/<?= urlencode($article['slug']) ?>/" class="headline-card" style="text-decoration:none;color:inherit;">
                 <div class="headline-card-img">
                     <?php if (!empty($article['meta']['thumbnail_url'])): ?>
-                    <img src="<?= htmlspecialchars($article['meta']['thumbnail_url']) ?>" alt="<?= htmlspecialchars($article['meta']['title'] ?? '') ?>" width="320" height="180" <?= $hi === 0 ? 'fetchpriority="high"' : 'loading="lazy"' ?>>
+                    <img src="<?= htmlspecialchars(Content::thumbnailProxy($article['meta']['thumbnail_url'], 640)) ?>" alt="<?= htmlspecialchars($article['meta']['title'] ?? '') ?>" width="320" height="180" <?= $hi === 0 ? 'fetchpriority="high"' : 'loading="lazy"' ?>>
                     <?php else: ?>
                     <span class="headline-card-placeholder"><?= htmlspecialchars(mb_substr($article['meta']['tag'] ?? '速報', 0, 3)) ?></span>
                     <?php endif; ?>
@@ -154,7 +154,7 @@ require __DIR__ . '/templates/header.php';
             <div class="article-item">
                 <div class="article-thumb">
                     <?php if (!empty($meta['thumbnail_url'])): ?>
-                        <img src="<?= htmlspecialchars($meta['thumbnail_url']) ?>" alt="<?= htmlspecialchars($meta['title'] ?? '') ?>" loading="lazy" width="120" height="80">
+                        <img src="<?= htmlspecialchars(Content::thumbnailProxy($meta['thumbnail_url'], 240)) ?>" alt="<?= htmlspecialchars($meta['title'] ?? '') ?>" loading="lazy" width="120" height="80">
                     <?php else: ?>
                         <?= mb_substr($catName, 0, 3) ?>
                     <?php endif; ?>

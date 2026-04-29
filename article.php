@@ -38,6 +38,11 @@ $ogType = 'article';
 $ogTitle = $pageTitle;
 $ogDescription = $metaDescription;
 $ogImage = $meta['thumbnail_url'] ?? '';
+// LCP対策: ヒーロー画像はweserv.nl経由のWebP配信＋preload
+$heroImageProxy = !empty($meta['thumbnail_url'])
+    ? Content::thumbnailProxy($meta['thumbnail_url'], 1000)
+    : '';
+$preloadImage = $heroImageProxy;
 
 $catLabel = $categoryNames[$currentCategory] ?? 'その他';
 $jsonLd = [
@@ -126,7 +131,7 @@ require __DIR__ . '/templates/header.php';
 
             <?php if (!empty($meta['thumbnail_url'])): ?>
             <div class="article-detail-img">
-                <img src="<?= htmlspecialchars($meta['thumbnail_url']) ?>" alt="<?= htmlspecialchars($meta['title'] ?? '') ?>" width="700" height="400" fetchpriority="high">
+                <img src="<?= htmlspecialchars($heroImageProxy) ?>" alt="<?= htmlspecialchars($meta['title'] ?? '') ?>" width="700" height="400" fetchpriority="high">
             </div>
             <?php endif; ?>
 
