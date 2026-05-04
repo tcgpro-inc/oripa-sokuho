@@ -12,9 +12,14 @@ load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
 
 import matplotlib
 matplotlib.use("Agg")
-matplotlib.rcParams["font.family"] = "Hiragino Sans"
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
+from matplotlib import font_manager
+
+for _candidate in ("Hiragino Sans", "VL PGothic", "VL Gothic", "Noto Sans CJK JP", "IPAexGothic"):
+    if any(f.name == _candidate for f in font_manager.fontManager.ttflist):
+        matplotlib.rcParams["font.family"] = _candidate
+        break
 
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
@@ -52,6 +57,7 @@ def post_image(client, image_path, filename, comment):
         file=image_path,
         filename=filename,
         initial_comment=comment,
+        request_file_info=False,
     )
 
 
