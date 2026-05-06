@@ -346,7 +346,10 @@
       "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/sanyodo-shinkaibashi-500yen-kuji-zero-touchen/",
       "thumbnail_url": "https://www.sanyodo.co.jp/wp-content/themes/sanyodo/assets/images/common/logo.jpg",
       "scheduled_at": "2026-05-04T20:00:00+09:00",
-      "status": "pending"
+      "status": "posted",
+      "tweet_id": "2051255529222357454",
+      "reply_id": "2051255530686177604",
+      "posted_at": "2026-05-04T20:00:02+09:00"
     },
     {
       "slug": "hareruya2-omiya-pack-corner-cut",
@@ -354,7 +357,10 @@
       "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/hareruya2-omiya-pack-corner-cut/",
       "thumbnail_url": "https://www.hareruya2.com/cdn/shop/files/ogp20260323_d6ad2d3d-3454-468b-829b-939a66283bb5.png",
       "scheduled_at": "2026-05-04T23:00:00+09:00",
-      "status": "pending"
+      "status": "posted",
+      "tweet_id": "2051300829727166657",
+      "reply_id": "2051300831614628314",
+      "posted_at": "2026-05-04T23:00:02+09:00"
     },
     {
       "slug": "kaitori-homura-reshrink-warning",
@@ -362,6 +368,17 @@
       "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/kaitori-homura-reshrink-warning/",
       "thumbnail_url": "https://kaitori-homura.com/og-image.png",
       "scheduled_at": "2026-05-05T10:00:00+09:00",
+      "status": "posted",
+      "tweet_id": "2051466918473977877",
+      "reply_id": "2051466920218763677",
+      "posted_at": "2026-05-05T10:00:01+09:00"
+    },
+    {
+      "slug": "tcg-shop-manner-complaints",
+      "text": "【まとめ】TCGショップ各店、客マナーに苦言ラッシュｗ\n\nカードラボ大須が5/6からルール導入→ナリタブロックが「全店舗やれ」「20分→5分」「店員呼んで電話やめろ」と呼応、同日ミント新宿でもストレージカード折り発覚\n\n一部のせいで全員ルール厳しくなる流れ…\n\n#ポケカ #TCG",
+      "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/tcg-shop-manner-complaints/",
+      "thumbnail_url": "https://www.pokemon-card.com/assets/images/og.png",
+      "scheduled_at": "2026-05-06T21:00:00+09:00",
       "status": "pending"
     }
   ]
