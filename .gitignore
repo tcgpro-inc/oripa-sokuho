@@ -3,6 +3,9 @@ data/pageviews.db
 data/cache/
 data/campaign/
 data/campaign-refresh.log
+data/x-posts.json
+data/sales-post.log
+data/schedule.log
 .DS_Store
 vendor/
 .claude/*
