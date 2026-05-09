@@ -47,8 +47,10 @@
       "reply_text": "",
       "image_url": "https://www.pokemon-card.com/ex/m5/assets/images/ogp.png",
       "fetched_at": "2026-05-04T18:43:15+09:00",
-      "status": "pending",
-      "scheduled_at": "2026-05-04T22:00:00+09:00"
+      "status": "posted",
+      "scheduled_at": "2026-05-04T22:00:00+09:00",
+      "tweet_id": "2051285727623962725",
+      "posted_at": "2026-05-04T22:00:01+09:00"
     },
     {
       "id": "abyss-eye-kids-republic-2026-05-07",
@@ -69,8 +71,11 @@
       "reply_text": "▼ 応募はこちら\nhttps://www.kidsrepublic.jp/campaign/",
       "image_url": "https://www.pokemon-card.com/ex/m5/assets/images/ogp.png",
       "fetched_at": "2026-05-04T18:43:15+09:00",
-      "status": "pending",
-      "scheduled_at": "2026-05-05T20:00:00+09:00"
+      "status": "posted",
+      "scheduled_at": "2026-05-05T20:00:00+09:00",
+      "tweet_id": "2051617920854430157",
+      "reply_id": "2051617922783875271",
+      "posted_at": "2026-05-05T20:00:02+09:00"
     },
     {
       "id": "abyss-eye-sanyodo-2026-05-10",
@@ -91,8 +96,11 @@
       "reply_text": "▼ 応募はこちら\nhttps://select-type.com/e/?id=EShUd-GIiUc",
       "image_url": "https://www.pokemon-card.com/ex/m5/assets/images/ogp.png",
       "fetched_at": "2026-05-04T18:43:15+09:00",
-      "status": "pending",
-      "scheduled_at": "2026-05-07T12:00:00+09:00"
+      "status": "posted",
+      "scheduled_at": "2026-05-07T12:00:00+09:00",
+      "tweet_id": "2052236993913131433",
+      "reply_id": "2052236995330752818",
+      "posted_at": "2026-05-07T13:00:01+09:00"
     },
     {
       "id": "mega-dream-ex-trecaplaza55-2026-05-05",
@@ -137,8 +145,10 @@
       "reply_text": "",
       "image_url": "https://www.pokemon-card.com/ex/m5/assets/images/ogp.png",
       "fetched_at": "2026-05-04T18:43:15+09:00",
-      "status": "pending",
-      "scheduled_at": "2026-05-07T16:00:00+09:00"
+      "status": "posted",
+      "scheduled_at": "2026-05-07T16:00:00+09:00",
+      "tweet_id": "2052282298448670856",
+      "posted_at": "2026-05-07T16:00:01+09:00"
     },
     {
       "id": "abyss-eye-geo-2026-05-07",
@@ -159,8 +169,11 @@
       "reply_text": "▼ 応募はこちら\nhttps://geo-online.co.jp/news/765",
       "image_url": "https://www.pokemon-card.com/ex/m5/assets/images/ogp.png",
       "fetched_at": "2026-05-04T18:43:15+09:00",
-      "status": "pending",
-      "scheduled_at": "2026-05-05T16:00:00+09:00"
+      "status": "posted",
+      "scheduled_at": "2026-05-05T16:00:00+09:00",
+      "tweet_id": "2051557523598311701",
+      "reply_id": "2051557525477372261",
+      "posted_at": "2026-05-05T16:00:01+09:00"
     },
     {
       "id": "abyss-eye-edion-cp-2026-05-10",
@@ -181,8 +194,11 @@
       "reply_text": "▼ 応募はこちら\nhttps://edion-cp.com/pokeca052201",
       "image_url": "https://www.pokemon-card.com/ex/m5/assets/images/ogp.png",
       "fetched_at": "2026-05-04T18:43:15+09:00",
-      "status": "pending",
-      "scheduled_at": "2026-05-06T20:00:00+09:00"
+      "status": "posted",
+      "scheduled_at": "2026-05-06T20:00:00+09:00",
+      "tweet_id": "2052221895043641727",
+      "reply_id": "2052221896998174723",
+      "posted_at": "2026-05-07T12:00:01+09:00"
     },
     {
       "id": "abyss-eye-fullcomp-2026-05-06",
@@ -227,8 +243,11 @@
       "reply_text": "▼ 応募はこちら\nhttps://es.aeon-hokkaido.jp/eshop/",
       "image_url": "https://www.pokemon-card.com/ex/m5/assets/images/ogp.png",
       "fetched_at": "2026-05-04T18:43:15+09:00",
-      "status": "pending",
-      "scheduled_at": "2026-05-05T12:00:00+09:00"
+      "status": "posted",
+      "scheduled_at": "2026-05-05T12:00:00+09:00",
+      "tweet_id": "2051497120394534957",
+      "reply_id": "2051497122164621497",
+      "posted_at": "2026-05-05T12:00:01+09:00"
     },
     {
       "id": "abyss-eye-bic-camera-2026-05-10",
@@ -249,8 +268,10 @@
       "reply_text": "",
       "image_url": "https://www.pokemon-card.com/ex/m5/assets/images/ogp.png",
       "fetched_at": "2026-05-04T18:43:15+09:00",
-      "status": "pending",
-      "scheduled_at": "2026-05-06T16:00:00+09:00"
+      "status": "posted",
+      "scheduled_at": "2026-05-06T16:00:00+09:00",
+      "tweet_id": "2052206796958539807",
+      "posted_at": "2026-05-07T11:00:01+09:00"
     },
     {
       "id": "abyss-eye-hareruya2-2026-05-08",
@@ -271,8 +292,142 @@
       "reply_text": "",
       "image_url": "https://www.pokemon-card.com/ex/m5/assets/images/ogp.png",
       "fetched_at": "2026-05-04T18:43:15+09:00",
-      "status": "pending",
-      "scheduled_at": "2026-05-06T12:00:00+09:00"
+      "status": "posted",
+      "scheduled_at": "2026-05-06T12:00:00+09:00",
+      "tweet_id": "2052191698193965341",
+      "posted_at": "2026-05-07T10:00:01+09:00"
+    },
+    {
+      "id": "abyss-eye-ito-yokado-2026-05-11",
+      "dedup_key": "ito-yokado|abyss-eye|2026-05-11",
+      "source": "pokecawatch",
+      "source_url": "https://pokecawatch.com/lottery-abyss-eye",
+      "store": "イトーヨーカドーネット",
+      "store_normalized": "ito-yokado",
+      "product": "ポケモンカードゲーム MEGA 拡張パック「アビスアイ」",
+      "product_normalized": "abyss-eye",
+      "lottery_type": "WEB抽選",
+      "entry_start": null,
+      "entry_end": "2026-05-11T11:59:00+09:00",
+      "result_announce": null,
+      "release_date": "2026-05-22",
+      "detail_url": "https://iyec.itoyokado.co.jp/shop/pages/apply_pomega_04.aspx",
+      "tweet_text": "【ポケカ抽選】アビスアイ\n\n▼ イトーヨーカドーネット\n受付: 〜 5/11(月)11:59 まで\n方式: WEB抽選\n\n#ポケカ #抽選販売",
+      "reply_text": "▼ 応募はこちら\nhttps://iyec.itoyokado.co.jp/shop/pages/apply_pomega_04.aspx",
+      "image_url": "https://www.pokemon-card.com/ex/m5/assets/images/ogp.png",
+      "fetched_at": "2026-05-09T18:10:00+09:00",
+      "scheduled_at": "2026-05-09T20:00:00+09:00",
+      "status": "pending"
+    },
+    {
+      "id": "abyss-eye-yodobashi-2026-05-12",
+      "dedup_key": "yodobashi|abyss-eye|2026-05-12",
+      "source": "pokecawatch",
+      "source_url": "https://pokecawatch.com/lottery-abyss-eye",
+      "store": "ヨドバシ・ドット・コム",
+      "store_normalized": "yodobashi",
+      "product": "ポケモンカードゲーム MEGA 拡張パック「アビスアイ」",
+      "product_normalized": "abyss-eye",
+      "lottery_type": "WEB抽選",
+      "entry_start": "2026-05-11T11:00:00+09:00",
+      "entry_end": "2026-05-12T10:59:00+09:00",
+      "result_announce": null,
+      "release_date": "2026-05-22",
+      "detail_url": "https://limited.yodobashi.com/",
+      "tweet_text": "【ポケカ抽選】アビスアイ\n\n▼ ヨドバシ.com\n受付: 5/11(月)11:00 〜 5/12(火)10:59\n方式: WEB抽選\n\n#ポケカ #抽選販売",
+      "reply_text": "▼ 応募はこちら\nhttps://limited.yodobashi.com/",
+      "image_url": "https://www.pokemon-card.com/ex/m5/assets/images/ogp.png",
+      "fetched_at": "2026-05-09T18:10:00+09:00",
+      "scheduled_at": "2026-05-10T12:00:00+09:00",
+      "status": "pending"
+    },
+    {
+      "id": "abyss-eye-trecaplaza55-2026-05-12",
+      "dedup_key": "trecaplaza55|abyss-eye|2026-05-12",
+      "source": "pokecawatch",
+      "source_url": "https://pokecawatch.com/lottery-abyss-eye",
+      "store": "トレカプラザ55通販店",
+      "store_normalized": "trecaplaza55",
+      "product": "ポケモンカードゲーム MEGA 拡張パック「アビスアイ」",
+      "product_normalized": "abyss-eye",
+      "lottery_type": "WEB抽選",
+      "entry_start": null,
+      "entry_end": "2026-05-12T23:59:00+09:00",
+      "result_announce": null,
+      "release_date": "2026-05-22",
+      "detail_url": "https://x.com/torepla_ec/status/2051980303833411872",
+      "tweet_text": "【ポケカ抽選】アビスアイ\n\n▼ トレカプラザ55通販\n受付: 〜 5/12(火)23:59 まで\n方式: WEB抽選\n\n#ポケカ #抽選販売",
+      "reply_text": "▼ 応募はこちら\nhttps://x.com/torepla_ec/status/2051980303833411872",
+      "image_url": "https://www.pokemon-card.com/ex/m5/assets/images/ogp.png",
+      "fetched_at": "2026-05-09T18:10:00+09:00",
+      "scheduled_at": "2026-05-10T16:00:00+09:00",
+      "status": "pending"
+    },
+    {
+      "id": "abyss-eye-kojima-2026-05-15",
+      "dedup_key": "kojima|abyss-eye|2026-05-15",
+      "source": "pokecawatch",
+      "source_url": "https://pokecawatch.com/lottery-abyss-eye",
+      "store": "コジマアプリ",
+      "store_normalized": "kojima",
+      "product": "ポケモンカードゲーム MEGA 拡張パック「アビスアイ」",
+      "product_normalized": "abyss-eye",
+      "lottery_type": "アプリ抽選",
+      "entry_start": "2026-05-08T21:00:00+09:00",
+      "entry_end": "2026-05-15T23:59:00+09:00",
+      "result_announce": null,
+      "release_date": "2026-05-22",
+      "detail_url": null,
+      "tweet_text": "【ポケカ抽選】アビスアイ\n\n▼ コジマアプリ\n受付: 5/8(金)21:00 〜 5/15(金)23:59\n方式: アプリ抽選\n\n#ポケカ #抽選販売",
+      "reply_text": "",
+      "image_url": "https://www.pokemon-card.com/ex/m5/assets/images/ogp.png",
+      "fetched_at": "2026-05-09T18:10:00+09:00",
+      "scheduled_at": "2026-05-10T20:00:00+09:00",
+      "status": "pending"
+    },
+    {
+      "id": "abyss-eye-furuichi-2026-05-17",
+      "dedup_key": "furuichi|abyss-eye|2026-05-17",
+      "source": "pokecawatch",
+      "source_url": "https://pokecawatch.com/lottery-abyss-eye",
+      "store": "ふるいち",
+      "store_normalized": "furuichi",
+      "product": "ポケモンカードゲーム MEGA 拡張パック「アビスアイ」",
+      "product_normalized": "abyss-eye",
+      "lottery_type": "WEB抽選",
+      "entry_start": null,
+      "entry_end": "2026-05-17T23:00:00+09:00",
+      "result_announce": null,
+      "release_date": "2026-05-22",
+      "detail_url": "https://www.furu1.net/news/news_information/pk20260522",
+      "tweet_text": "【ポケカ抽選】アビスアイ\n\n▼ ふるいち\n受付: 〜 5/17(日)23:00 まで\n方式: WEB抽選\n\n#ポケカ #抽選販売",
+      "reply_text": "▼ 応募はこちら\nhttps://www.furu1.net/news/news_information/pk20260522",
+      "image_url": "https://www.pokemon-card.com/ex/m5/assets/images/ogp.png",
+      "fetched_at": "2026-05-09T18:10:00+09:00",
+      "scheduled_at": "2026-05-11T12:00:00+09:00",
+      "status": "pending"
+    },
+    {
+      "id": "abyss-eye-fukufuku-2026-05-20",
+      "dedup_key": "fukufuku|abyss-eye|2026-05-20",
+      "source": "pokecawatch",
+      "source_url": "https://pokecawatch.com/lottery-abyss-eye",
+      "store": "福福トレカ通販店",
+      "store_normalized": "fukufuku",
+      "product": "ポケモンカードゲーム MEGA 拡張パック「アビスアイ」",
+      "product_normalized": "abyss-eye",
+      "lottery_type": "WEB抽選",
+      "entry_start": null,
+      "entry_end": "2026-05-20T23:59:00+09:00",
+      "result_announce": null,
+      "release_date": "2026-05-22",
+      "detail_url": "https://x.com/Fukufuku_IKB/status/2052624006826828166",
+      "tweet_text": "【ポケカ抽選】アビスアイ\n\n▼ 福福トレカ通販\n受付: 〜 5/20(水)23:59 まで\n方式: WEB抽選\n\n#ポケカ #抽選販売",
+      "reply_text": "▼ 応募はこちら\nhttps://x.com/Fukufuku_IKB/status/2052624006826828166",
+      "image_url": "https://www.pokemon-card.com/ex/m5/assets/images/ogp.png",
+      "fetched_at": "2026-05-09T18:10:00+09:00",
+      "scheduled_at": "2026-05-11T16:00:00+09:00",
+      "status": "pending"
     }
   ]
 }
