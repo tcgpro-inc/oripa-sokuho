@@ -379,6 +379,24 @@
       "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/tcg-shop-manner-complaints/",
       "thumbnail_url": "https://www.pokemon-card.com/assets/images/og.png",
       "scheduled_at": "2026-05-06T21:00:00+09:00",
+      "status": "error",
+      "error": "X API エラー (HTTP 402): {\"account_id\":2040340815487356929,\"title\":\"CreditsDepleted\",\"detail\":\"Your enrolled account [2040340815487356929] does not have any credits to fulfill this request.\",\"type\":\"https://api.twitter.com/2/problems/credits\"}",
+      "error_at": "2026-05-06T21:00:01+09:00"
+    },
+    {
+      "slug": "snkrdunk-reshrink-lightning-energy",
+      "text": "【悲報】スニダン鑑定をすり抜けた「再シュリ品」、開封したら雷エネルギーカードが紛れ込んでた件ｗｗｗ\n\n投稿者「株ポケの製造で雷エネは入らんわ」「リザードンの裏に貼り付いてないか確認した」「手元に来たのが僕でよかったよ」\n\n鑑定してこれはアカンやろ…\n\n#ポケカ #オリパ",
+      "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/snkrdunk-reshrink-lightning-energy/",
+      "thumbnail_url": "https://www.pokemon-card.com/assets/images/og.png",
+      "scheduled_at": "2026-05-11T10:00:00+09:00",
+      "status": "pending"
+    },
+    {
+      "slug": "irodori-base-oripa-shibuya-pikachu-condition",
+      "text": "【炎上】「カードショップIRODORI」のBASEオリパ、購入者が〈拡散希望〉で注意喚起😟\n\n10口購入で当選した大当たり枠『シブヤのピカチュウ』が、当たりとは呼べないほど酷い状態で届いたと主張…\n\nプロモは状態で価値全然違うカードやから余計にキツい\n\n#ポケカ #オリパ",
+      "reply_text": "▼ 詳細はこちら\nhttps://oripanews.com/article/irodori-base-oripa-shibuya-pikachu-condition/",
+      "thumbnail_url": "https://www.pokemon-card.com/assets/images/og.png",
+      "scheduled_at": "2026-05-11T21:00:00+09:00",
       "status": "pending"
     }
   ]
