@@ -8,7 +8,7 @@ company: "カードラボ名古屋大須店 / ミント新宿店 ほか"
 slug: "tcg-shop-manner-complaints"
 published_at: "2026-05-06T19:00:00+09:00"
 hot: true
-thumbnail_url: "https://www.pokemon-card.com/assets/images/og.png"
+thumbnail_url: "https://www.c-labo.jp/assets/pc/img/og.png"
 ---
 
 5月6日、TCGショップ複数店舗からほぼ同時刻に「客マナーへの苦言・ルール強化のお知らせ」が立て続けに発信され、ポケカ界隈がざわついている。ショーケース前の長時間占拠、店員を呼んだ上での電話、ストレージカードの破損……もはや一部の客のせいで全員が割を食う展開になりつつある。
