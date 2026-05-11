@@ -8,7 +8,7 @@ company: "スニーカーダンク（SNKRDUNK）"
 slug: "snkrdunk-reshrink-lightning-energy"
 published_at: "2026-05-10T22:10:00+09:00"
 hot: true
-thumbnail_url: "https://www.pokemon-card.com/assets/images/og.png"
+thumbnail_url: "https://assets.snkrdunk.com/8692e7d20d8309f/img/common/og-image.png"
 ---
 
 トレカ・スニーカー鑑定サービス「スニダン（SNKRDUNK）」を経由して購入したポケカ未開封品から、本来あり得ない**雷エネルギーカード**が紛れ込んだ状態で見つかったとして、購入者の **@buruburu1029** 氏が2026年5月10日にX上で報告。鑑定をすり抜けた再シュリンク品ではないかと指摘し、ポケカ界隈に再び再シュリ問題への警戒が広がっている。

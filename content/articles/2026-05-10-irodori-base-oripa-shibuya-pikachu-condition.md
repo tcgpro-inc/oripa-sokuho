@@ -8,7 +8,7 @@ company: "カードショップIRODORI"
 slug: "irodori-base-oripa-shibuya-pikachu-condition"
 published_at: "2026-05-10T22:30:00+09:00"
 hot: true
-thumbnail_url: "https://www.pokemon-card.com/assets/images/og.png"
+thumbnail_url: "https://baseec-img-mng.akamaized.net/images/user/logo/a08999159861ce51ae68bc6cdeac7c7a.png?imformat=generic&q=90&im=Resize,width=1200,height=1200,aspect=fit,type=normal;Crop,width=1200,height=1200,gravity=Center,allowExpansion"
 ---
 
 2026年5月10日、Xユーザー **@high_hige**（ハイ髭(指毛)）氏が、「**カードショップIRODORI**」が運営するBASE店舗で購入したオリパに関して〈拡散希望〉付きの注意喚起投稿を発信。10口購入で当選した大当たり枠「**シブヤのピカチュウ**」が、当たりと呼べないほど状態の悪い個体で届いたと主張している。
